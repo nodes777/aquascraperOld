@@ -1,10 +1,16 @@
 var cheerio = require("cheerio");
 var request = require("request-promise");
+var fishPaths = require('./fishCategoryPaths');
 var fs = require("fs");
-var pathToFolder = "./aquatabletext.txt";
+
+/* Options */
+var outputFormat = ".txt" // or html
+var pathToFolder = "./aquatabletext"+outputFormat;
+var fishType = fishPaths.nonBettas;
+var rootPath = 'http://www.aquabid.com/cgi-bin/auction/auction.cgi?';
 
 var options = {
-    uri: 'http://www.aquabid.com/cgi-bin/auction/auction.cgi?fwbettasct',
+    uri: rootPath+fishType,
     transform: function (body) {
         return cheerio.load(body);
     }
