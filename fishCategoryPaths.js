@@ -11,7 +11,7 @@ module.exports = {
 				plakats: "fwbettaswt",
 				wildTypes: "fwbettas"
 		}
-	}
+	},
 	arowana: "fwarowana",
 	catfish: {
 		cories: "fwcatfishc",
@@ -33,11 +33,31 @@ module.exports = {
 		},
 		centralAmerica: "fwcichlidc",
 		southAmerica: {
-			angelfish: "",
-			apistos: "",
-			discus: ""
+			angelfish: "fwangelfish",
+			apistos: "fwapisto",
+			discus: "fwdiscus"
 		},
 		others: "fwcichlidso"
-	}
-	
+	},
+	cyprinids: "fwcyprinids",
+	flowerhorn: "fwflowerhorn",
+	goldfish: "fwgoldfish",
+	guppies: "fwguppies",
+	invertebrates: "fwinverts",
+	killifish: {
+		killifish: "fwkillifish",
+		killifishEggs: "fwkillifishe"
+	},
+	koi: "fwkoi",
+	livebearers: {
+		domesticated: "fwlivebearers",
+		wildTypes: "fwlivebearersw"
+	},
+	loaches: "fwcatfishl",
+	rainbows: "fwrainbows",
+	snails: "fwsnails",
+	stingrays: "fwstringray",
+	usNatives: "fwusnative",
+	others: "fw",
+	mixedLots: "fwmixed",
 }
