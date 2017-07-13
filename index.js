@@ -10,7 +10,7 @@ var fishType = fishPaths.characins;
 var rootPath = 'http://www.aquabid.com/cgi-bin/auction/auction.cgi?';
 
 var webUri = rootPath+fishType;
-console.log(webUri);
+//console.log(webUri);
 
 var options = {
     uri: webUri,
@@ -22,10 +22,14 @@ var options = {
 request(options)
 	.then(function($){
 		console.log("Connected!");
-		getTdElems($);
+		return getTdElems($);
 	})
 	.then(function(tdElems){
-		writeFile(tdElems)
+		//console.log(tdElems);
+		//writeFile(tdElems)
+		return parseTextToNums(tdElems);
+	}).then(function(numArray){
+		getAvg(numArray)
 	})
 	.catch(function(err){
 		throw err;
@@ -43,8 +47,32 @@ function writeFile(tdElems){
 	});
 }
 
+/* Get td elements from webpage */
 function getTdElems($){
 		var tdElems = $('td[width="7%"] font').text();
-		console.log(tdElems);
+		//console.log(tdElems);
 		return tdElems;
+}
+
+/* Parsing */
+function parseTextToNums(string){
+	// trim the extra space, then split by spaces
+	var stringArr = string.trim().split(" ");
+	// convert the string array to number array by mapping each item to Number func, parseInt would be an alternative
+	var numArray = stringArr.map(Number);
+	//console.log(numArray);
+	//console.log(numArray.length);
+	return numArray;
+}
+
+/* Get average of an array */ 
+function getAvg(numArray) {
+	var sum = numArray.reduce(function(accumulator, item){
+		return accumulator + item;
+	});
+	var avg = sum / numArray.length;
+	
+	console.log(avg);
+	//return the avg cut to 2 decimal places
+	return avg.toFixed(2);
 }
