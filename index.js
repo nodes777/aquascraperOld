@@ -6,34 +6,35 @@ var fs = require("fs");
 /* Options */
 var outputFormat = ".txt" // or html
 var pathToFolder = "./aquatabletext"+outputFormat;
-var fishType = fishPaths.characins;
+
 var rootPath = 'http://www.aquabid.com/cgi-bin/auction/auction.cgi?';
 
-var webUri = rootPath+fishType;
-//console.log(webUri);
+//var webUri = rootPath+fishType;
 
-var options = {
-    uri: webUri,
-    transform: function (body) {
-        return cheerio.load(body);
-    }
-};
+for(key in fishPaths){
+	console.log(key);
+	console.log(fishPaths.key);
+}
+/*
+	var webUri = rootPath+fishType;
+	var options = {
+	    uri: webUri,
+	    transform: function (body) {
+	        return cheerio.load(body);
+	    }
+	};
+	request(options)
+		.then(function($){
+			console.log("Connected!");
+			var elemString = getTdElems($);
+			var numArray = parseTextToNums(elemString);
+			var avg = getAvg(numArray);
+			console.log("Avg price of "+ Object.keys(fishPaths)+ " "+ avg);
 
-request(options)
-	.then(function($){
-		console.log("Connected!");
-		return getTdElems($);
-	})
-	.then(function(tdElems){
-		//console.log(tdElems);
-		//writeFile(tdElems)
-		return parseTextToNums(tdElems);
-	}).then(function(numArray){
-		getAvg(numArray)
-	})
-	.catch(function(err){
-		throw err;
-	});
+		})
+		.catch(function(err){
+			throw err;
+		});
 
 
 /* Write File */
@@ -49,9 +50,8 @@ function writeFile(tdElems){
 
 /* Get td elements from webpage */
 function getTdElems($){
-		var tdElems = $('td[width="7%"] font').text();
-		//console.log(tdElems);
-		return tdElems;
+		var priceElems = $('td[width="7%"] font').text();
+		return priceElems;
 }
 
 /* Parsing */
@@ -71,8 +71,27 @@ function getAvg(numArray) {
 		return accumulator + item;
 	});
 	var avg = sum / numArray.length;
-	
-	console.log(avg);
 	//return the avg cut to 2 decimal places
 	return avg.toFixed(2);
 }
+
+
+/* Seperated by then statements
+
+request(options)
+	.then(function($){
+		console.log("Connected!");
+		return getTdElems($);
+	})
+	.then(function(tdElems){
+		//console.log(tdElems);
+		return parseTextToNums(tdElems);
+	}).then(function(numArray){
+		console.log(numArray);
+		getAvg(numArray)
+	})
+	.catch(function(err){
+		throw err;
+	});
+
+*/
