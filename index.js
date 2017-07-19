@@ -10,13 +10,19 @@ var pathToFolder = "./aquatabletext"+outputFormat;
 var rootPath = 'http://www.aquabid.com/cgi-bin/auction/auction.cgi?';
 
 //var webUri = rootPath+fishType;
-
-for(key in fishPaths){
-	console.log(key);
-	console.log(fishPaths.key);
+function getURLsRecursive (path){
+	for(key in path){
+		if (typeof path[key] === "object" && path[key] !== undefined && path[key] !== null){
+			getURLsRecursive (path[key])
+		} else {
+			console.log("Key: " + key + " Path: " +path[key]);
+		}
+		
+	}
 }
+
+getURLsRecursive(fishPaths);
 /*
-	var webUri = rootPath+fishType;
 	var options = {
 	    uri: webUri,
 	    transform: function (body) {
