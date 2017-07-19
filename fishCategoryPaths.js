@@ -16,7 +16,7 @@ module.exports = {
 	catfish: {
 		cories: "fwcatfishc",
 		plecos: "fwcatfishp",
-		others: "fwcatfish"
+		otherCatfish: "fwcatfish"
 	},
 	characins: "fwcharacins",
 	cichlids: {
@@ -25,7 +25,7 @@ module.exports = {
 				haplochromines: "fwcichlidsmh",
 				mbuna: "fwcichlidsmmb",
 				peacocks: "fwcichlidsmp",
-				others: "fwcichlidsm"
+				otherAfricanCichlids: "fwcichlidsm"
 			},
 			tanganyika: "fwcichlidst",
 			victoria: "fwcichlidsv",
@@ -37,7 +37,7 @@ module.exports = {
 			apistos: "fwapisto",
 			discus: "fwdiscus"
 		},
-		others: "fwcichlidso"
+		otherCichlids: "fwcichlidso"
 	},
 	cyprinids: "fwcyprinids",
 	flowerhorn: "fwflowerhorn",

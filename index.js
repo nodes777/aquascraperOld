@@ -7,41 +7,43 @@ var fs = require("fs");
 var outputFormat = ".txt" // or html
 var pathToFolder = "./aquatabletext"+outputFormat;
 
-var rootPath = 'http://www.aquabid.com/cgi-bin/auction/auction.cgi?';
+var rootURL = 'http://www.aquabid.com/cgi-bin/auction/auction.cgi?';
 
-//var webUri = rootPath+fishType;
+/* Loop through all fish paths to get end of url strings */
 function getURLsRecursive (path){
 	for(key in path){
 		if (typeof path[key] === "object" && path[key] !== undefined && path[key] !== null){
 			getURLsRecursive (path[key])
 		} else {
-			console.log("Key: " + key + " Path: " +path[key]);
-		}
-		
+			//console.log("Key: " + key + " Path: " +path[key] + "\n");
+			makeRequest(key, path[key]);
+		}	
 	}
 }
 
 getURLsRecursive(fishPaths);
-/*
+
+function makeRequest(fishName,urlEnd){
 	var options = {
-	    uri: webUri,
+	    uri: rootURL+urlEnd,
 	    transform: function (body) {
 	        return cheerio.load(body);
 	    }
 	};
 	request(options)
 		.then(function($){
-			console.log("Connected!");
+			console.log("Connected!" + "\n");
 			var elemString = getTdElems($);
 			var numArray = parseTextToNums(elemString);
 			var avg = getAvg(numArray);
-			console.log("Avg price of "+ Object.keys(fishPaths)+ " "+ avg);
+			var date = new Date();
+			console.log(`Avg price of ${fishName} ${avg} on ${date} \n`);
 
 		})
 		.catch(function(err){
 			throw err;
 		});
-
+}
 
 /* Write File */
 function writeFile(tdElems){
@@ -53,6 +55,7 @@ function writeFile(tdElems){
 		console.log("The file was saved!");
 	});
 }
+
 
 /* Get td elements from webpage */
 function getTdElems($){
