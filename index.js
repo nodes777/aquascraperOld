@@ -36,7 +36,7 @@ function makeRequest(fishName,urlEnd){
 			var elemString = getTdElems($);
 			var numArray = parseTextToNums(elemString);
 			var avg = getAvg(numArray);
-			var date = new Date();
+			var date = new Date().toDateString();;
 			console.log(`Avg price of ${fishName} ${avg} on ${date} \n`);
 
 		})

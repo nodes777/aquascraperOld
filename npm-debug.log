@@ -1,0 +1,977 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'casperjs',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData casperjs
+8 silly fetchNamedPackageData casperjs
+9 silly mapToRegistry name casperjs
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'casperjs',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'casperjs',
+12 silly mapToRegistry   name: 'casperjs',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/casperjs
+14 verbose request uri https://registry.npmjs.org/casperjs
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 12:10:42 PM
+17 verbose request id 95438db4ff469274
+18 verbose etag W/"5931444e-46da"
+19 verbose lastModified Fri, 02 Jun 2017 10:56:14 GMT
+20 http request GET https://registry.npmjs.org/casperjs
+21 http 304 https://registry.npmjs.org/casperjs
+22 verbose headers { date: 'Fri, 21 Jul 2017 19:09:35 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"5931444e-46da"',
+22 verbose headers   age: '12',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-sjc3644-SJC',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1500664176.627465,VS0,VE1',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Fri, 21 Jul 2017 19:09:35 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"5931444e-46da"',
+23 silly get     age: '12',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sjc3644-SJC',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1500664176.627465,VS0,VE1',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/casperjs from cache
+25 verbose get saving casperjs to C:\Users\tnodell\AppData\Roaming\npm-cache\registry.npmjs.org\casperjs\.cache.json
+26 verbose correctMkdir C:\Users\tnodell\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule casperjs@1.1.4 checking installable status
+40 silly cache add args [ 'casperjs', null ]
+41 verbose cache add spec casperjs
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'casperjs',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'casperjs',
+42 silly cache add   name: 'casperjs',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed casperjs@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for casperjs
+45 info addNameTag [ 'casperjs', 'latest' ]
+46 silly mapToRegistry name casperjs
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'casperjs',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'casperjs',
+49 silly mapToRegistry   name: 'casperjs',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/casperjs
+51 verbose addNameTag registry:https://registry.npmjs.org/casperjs not in flight; fetching
+52 verbose get https://registry.npmjs.org/casperjs not expired, no request
+53 silly addNameTag next cb for casperjs with tag latest
+54 silly addNamed casperjs@1.1.4
+55 verbose addNamed "1.1.4" is a plain semver version for casperjs
+56 silly cache afterAdd casperjs@1.1.4
+57 verbose afterAdd C:\Users\tnodell\AppData\Roaming\npm-cache\casperjs\1.1.4\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\tnodell\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\tnodell\AppData\Roaming\npm-cache\casperjs\1.1.4\package\package.json written
+60 silly loadAllDepsIntoIdealTree Finishing
+61 silly loadIdealTree Finishing
+62 silly currentTree aquascraper@1.0.0
+62 silly currentTree +-- @types/node@6.0.80
+62 silly currentTree +-- ajv@4.11.8
+62 silly currentTree +-- asn1@0.2.3
+62 silly currentTree +-- assert-plus@0.2.0
+62 silly currentTree +-- asynckit@0.4.0
+62 silly currentTree +-- aws-sign2@0.6.0
+62 silly currentTree +-- aws4@1.6.0
+62 silly currentTree +-- bcrypt-pbkdf@1.0.1
+62 silly currentTree +-- bluebird@3.5.0
+62 silly currentTree +-- boolbase@1.0.0
+62 silly currentTree +-- boom@2.10.1
+62 silly currentTree +-- caseless@0.12.0
+62 silly currentTree +-- casperjs@1.1.4
+62 silly currentTree +-- cheerio@1.0.0-rc.2
+62 silly currentTree +-- co@4.6.0
+62 silly currentTree +-- combined-stream@1.0.5
+62 silly currentTree +-- core-util-is@1.0.2
+62 silly currentTree +-- cryptiles@2.0.5
+62 silly currentTree +-- css-select@1.2.0
+62 silly currentTree +-- css-what@2.1.0
+62 silly currentTree +-- dashdash@1.14.1
+62 silly currentTree | `-- assert-plus@1.0.0
+62 silly currentTree +-- delayed-stream@1.0.0
+62 silly currentTree +-- dom-serializer@0.1.0
+62 silly currentTree | `-- domelementtype@1.1.3
+62 silly currentTree +-- domelementtype@1.3.0
+62 silly currentTree +-- domhandler@2.4.1
+62 silly currentTree +-- domutils@1.5.1
+62 silly currentTree +-- ecc-jsbn@0.1.1
+62 silly currentTree +-- entities@1.1.1
+62 silly currentTree +-- extend@3.0.1
+62 silly currentTree +-- extsprintf@1.0.2
+62 silly currentTree +-- forever-agent@0.6.1
+62 silly currentTree +-- form-data@2.1.4
+62 silly currentTree +-- getpass@0.1.7
+62 silly currentTree | `-- assert-plus@1.0.0
+62 silly currentTree +-- har-schema@1.0.5
+62 silly currentTree +-- har-validator@4.2.1
+62 silly currentTree +-- hawk@3.1.3
+62 silly currentTree +-- hoek@2.16.3
+62 silly currentTree +-- htmlparser2@3.9.2
+62 silly currentTree +-- http-signature@1.1.1
+62 silly currentTree +-- inherits@2.0.3
+62 silly currentTree +-- is-typedarray@1.0.0
+62 silly currentTree +-- isarray@1.0.0
+62 silly currentTree +-- isstream@0.1.2
+62 silly currentTree +-- jsbn@0.1.1
+62 silly currentTree +-- json-schema@0.2.3
+62 silly currentTree +-- json-stable-stringify@1.0.1
+62 silly currentTree +-- json-stringify-safe@5.0.1
+62 silly currentTree +-- jsonify@0.0.0
+62 silly currentTree +-- jsprim@1.4.0
+62 silly currentTree | `-- assert-plus@1.0.0
+62 silly currentTree +-- lodash@4.17.4
+62 silly currentTree +-- mime-db@1.27.0
+62 silly currentTree +-- mime-types@2.1.15
+62 silly currentTree +-- nth-check@1.0.1
+62 silly currentTree +-- oauth-sign@0.8.2
+62 silly currentTree +-- parse5@3.0.2
+62 silly currentTree +-- performance-now@0.2.0
+62 silly currentTree +-- process-nextick-args@1.0.7
+62 silly currentTree +-- punycode@1.4.1
+62 silly currentTree +-- qs@6.4.0
+62 silly currentTree +-- readable-stream@2.3.3
+62 silly currentTree +-- request-promise-core@1.1.1
+62 silly currentTree +-- request-promise@4.2.1
+62 silly currentTree +-- request@2.81.0
+62 silly currentTree +-- safe-buffer@5.1.1
+62 silly currentTree +-- sntp@1.0.9
+62 silly currentTree +-- sshpk@1.13.1
+62 silly currentTree | `-- assert-plus@1.0.0
+62 silly currentTree +-- stealthy-require@1.1.1
+62 silly currentTree +-- string_decoder@1.0.3
+62 silly currentTree +-- stringstream@0.0.5
+62 silly currentTree +-- tough-cookie@2.3.2
+62 silly currentTree +-- tunnel-agent@0.6.0
+62 silly currentTree +-- tweetnacl@0.14.5
+62 silly currentTree +-- util-deprecate@1.0.2
+62 silly currentTree +-- uuid@3.1.0
+62 silly currentTree `-- verror@1.3.6
+63 silly idealTree aquascraper@1.0.0
+63 silly idealTree +-- @types/node@6.0.80
+63 silly idealTree +-- ajv@4.11.8
+63 silly idealTree +-- asn1@0.2.3
+63 silly idealTree +-- assert-plus@0.2.0
+63 silly idealTree +-- asynckit@0.4.0
+63 silly idealTree +-- aws-sign2@0.6.0
+63 silly idealTree +-- aws4@1.6.0
+63 silly idealTree +-- bcrypt-pbkdf@1.0.1
+63 silly idealTree +-- bluebird@3.5.0
+63 silly idealTree +-- boolbase@1.0.0
+63 silly idealTree +-- boom@2.10.1
+63 silly idealTree +-- caseless@0.12.0
+63 silly idealTree +-- casperjs@1.1.4
+63 silly idealTree +-- cheerio@1.0.0-rc.2
+63 silly idealTree +-- co@4.6.0
+63 silly idealTree +-- combined-stream@1.0.5
+63 silly idealTree +-- core-util-is@1.0.2
+63 silly idealTree +-- cryptiles@2.0.5
+63 silly idealTree +-- css-select@1.2.0
+63 silly idealTree +-- css-what@2.1.0
+63 silly idealTree +-- dashdash@1.14.1
+63 silly idealTree | `-- assert-plus@1.0.0
+63 silly idealTree +-- delayed-stream@1.0.0
+63 silly idealTree +-- dom-serializer@0.1.0
+63 silly idealTree | `-- domelementtype@1.1.3
+63 silly idealTree +-- domelementtype@1.3.0
+63 silly idealTree +-- domhandler@2.4.1
+63 silly idealTree +-- domutils@1.5.1
+63 silly idealTree +-- ecc-jsbn@0.1.1
+63 silly idealTree +-- entities@1.1.1
+63 silly idealTree +-- extend@3.0.1
+63 silly idealTree +-- extsprintf@1.0.2
+63 silly idealTree +-- forever-agent@0.6.1
+63 silly idealTree +-- form-data@2.1.4
+63 silly idealTree +-- getpass@0.1.7
+63 silly idealTree | `-- assert-plus@1.0.0
+63 silly idealTree +-- har-schema@1.0.5
+63 silly idealTree +-- har-validator@4.2.1
+63 silly idealTree +-- hawk@3.1.3
+63 silly idealTree +-- hoek@2.16.3
+63 silly idealTree +-- htmlparser2@3.9.2
+63 silly idealTree +-- http-signature@1.1.1
+63 silly idealTree +-- inherits@2.0.3
+63 silly idealTree +-- is-typedarray@1.0.0
+63 silly idealTree +-- isarray@1.0.0
+63 silly idealTree +-- isstream@0.1.2
+63 silly idealTree +-- jsbn@0.1.1
+63 silly idealTree +-- json-schema@0.2.3
+63 silly idealTree +-- json-stable-stringify@1.0.1
+63 silly idealTree +-- json-stringify-safe@5.0.1
+63 silly idealTree +-- jsonify@0.0.0
+63 silly idealTree +-- jsprim@1.4.0
+63 silly idealTree | `-- assert-plus@1.0.0
+63 silly idealTree +-- lodash@4.17.4
+63 silly idealTree +-- mime-db@1.27.0
+63 silly idealTree +-- mime-types@2.1.15
+63 silly idealTree +-- nth-check@1.0.1
+63 silly idealTree +-- oauth-sign@0.8.2
+63 silly idealTree +-- parse5@3.0.2
+63 silly idealTree +-- performance-now@0.2.0
+63 silly idealTree +-- process-nextick-args@1.0.7
+63 silly idealTree +-- punycode@1.4.1
+63 silly idealTree +-- qs@6.4.0
+63 silly idealTree +-- readable-stream@2.3.3
+63 silly idealTree +-- request-promise-core@1.1.1
+63 silly idealTree +-- request-promise@4.2.1
+63 silly idealTree +-- request@2.81.0
+63 silly idealTree +-- safe-buffer@5.1.1
+63 silly idealTree +-- sntp@1.0.9
+63 silly idealTree +-- sshpk@1.13.1
+63 silly idealTree | `-- assert-plus@1.0.0
+63 silly idealTree +-- stealthy-require@1.1.1
+63 silly idealTree +-- string_decoder@1.0.3
+63 silly idealTree +-- stringstream@0.0.5
+63 silly idealTree +-- tough-cookie@2.3.2
+63 silly idealTree +-- tunnel-agent@0.6.0
+63 silly idealTree +-- tweetnacl@0.14.5
+63 silly idealTree +-- util-deprecate@1.0.2
+63 silly idealTree +-- uuid@3.1.0
+63 silly idealTree `-- verror@1.3.6
+64 silly generateActionsToTake Starting
+65 silly install generateActionsToTake
+66 silly generateActionsToTake Finishing
+67 silly diffTrees action count 1
+68 silly diffTrees update casperjs@1.1.4
+69 silly decomposeActions action count 9
+70 silly decomposeActions remove casperjs@1.1.4
+71 silly decomposeActions fetch casperjs@1.1.4
+72 silly decomposeActions extract casperjs@1.1.4
+73 silly decomposeActions test casperjs@1.1.4
+74 silly decomposeActions preinstall casperjs@1.1.4
+75 silly decomposeActions build casperjs@1.1.4
+76 silly decomposeActions install casperjs@1.1.4
+77 silly decomposeActions postinstall casperjs@1.1.4
+78 silly decomposeActions finalize casperjs@1.1.4
+79 silly runTopLevelLifecycles Starting
+80 silly executeActions Starting
+81 silly install executeActions
+82 silly doSerial global-install 0
+83 silly doParallel fetch 1
+84 verbose correctMkdir C:\Users\tnodell\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+85 verbose lock using C:\Users\tnodell\AppData\Roaming\npm-cache\_locks\staging-6c71ff9d1d405f4f.lock for H:\aquascraper\node_modules\.staging
+86 silly doParallel extract 1
+87 silly extract casperjs@1.1.4
+88 verbose unbuild node_modules\.staging\casperjs-07559eb1
+89 silly gentlyRm H:\aquascraper\node_modules\.staging\casperjs-07559eb1 is being purged from base H:\aquascraper
+90 verbose gentlyRm don't care about contents; nuking H:\aquascraper\node_modules\.staging\casperjs-07559eb1
+91 verbose tar unpack C:\Users\tnodell\AppData\Roaming\npm-cache\casperjs\1.1.4\package.tgz
+92 verbose tar unpacking to H:\aquascraper\node_modules\.staging\casperjs-07559eb1
+93 silly gentlyRm H:\aquascraper\node_modules\.staging\casperjs-07559eb1 is being purged
+94 verbose gentlyRm don't care about contents; nuking H:\aquascraper\node_modules\.staging\casperjs-07559eb1
+95 silly gunzTarPerm modes [ '777', '666' ]
+96 silly gunzTarPerm extractEntry package.json
+97 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+98 silly gunzTarPerm extractEntry .npmignore
+99 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+100 silly gunzTarPerm extractEntry README.md
+101 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+102 silly gunzTarPerm extractEntry Makefile
+103 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+104 silly gunzTarPerm extractEntry .gitmodules
+105 silly gunzTarPerm modified mode [ '.gitmodules', 420, 438 ]
+106 silly gunzTarPerm extractEntry .travis.yml
+107 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+108 silly gunzTarPerm extractEntry CHANGELOG.md
+109 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+110 silly gunzTarPerm extractEntry CONTRIBUTING.md
+111 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+112 silly gunzTarPerm extractEntry CONTRIBUTORS.md
+113 silly gunzTarPerm modified mode [ 'CONTRIBUTORS.md', 420, 438 ]
+114 silly gunzTarPerm extractEntry LICENSE.md
+115 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+116 silly gunzTarPerm extractEntry .eslintrc
+117 silly gunzTarPerm modified mode [ '.eslintrc', 420, 438 ]
+118 silly gunzTarPerm extractEntry .gitattributes
+119 silly gunzTarPerm modified mode [ '.gitattributes', 420, 438 ]
+120 silly gunzTarPerm extractEntry bin/bootstrap.js
+121 silly gunzTarPerm modified mode [ 'bin/bootstrap.js', 493, 511 ]
+122 silly gunzTarPerm extractEntry bin/casperjs.js
+123 silly gunzTarPerm modified mode [ 'bin/casperjs.js', 493, 511 ]
+124 silly gunzTarPerm extractEntry bin/casperjs
+125 silly gunzTarPerm modified mode [ 'bin/casperjs', 493, 511 ]
+126 silly gunzTarPerm extractEntry bin/casperjs.exe
+127 silly gunzTarPerm modified mode [ 'bin/casperjs.exe', 493, 511 ]
+128 silly gunzTarPerm extractEntry bin/usage.txt
+129 silly gunzTarPerm modified mode [ 'bin/usage.txt', 420, 438 ]
+130 silly gunzTarPerm extractEntry casperjs.gemspec
+131 silly gunzTarPerm modified mode [ 'casperjs.gemspec', 420, 438 ]
+132 silly gunzTarPerm extractEntry docs/README.md
+133 silly gunzTarPerm modified mode [ 'docs/README.md', 420, 438 ]
+134 silly gunzTarPerm extractEntry docs/faq.rst
+135 silly gunzTarPerm modified mode [ 'docs/faq.rst', 420, 438 ]
+136 silly gunzTarPerm extractEntry docs/_static/casperjs-favicon.ico
+137 silly gunzTarPerm modified mode [ 'docs/_static/casperjs-favicon.ico', 420, 438 ]
+138 silly gunzTarPerm extractEntry docs/_static/images/cow-test-ko.png
+139 silly gunzTarPerm modified mode [ 'docs/_static/images/cow-test-ko.png', 420, 438 ]
+140 silly gunzTarPerm extractEntry docs/_static/images/bg.png
+141 silly gunzTarPerm modified mode [ 'docs/_static/images/bg.png', 420, 438 ]
+142 silly gunzTarPerm extractEntry docs/_static/images/casperjs-logo-small.png
+143 silly gunzTarPerm modified mode [ 'docs/_static/images/casperjs-logo-small.png', 420, 438 ]
+144 silly gunzTarPerm extractEntry docs/_static/images/casperjs-logo-squared-inv.png
+145 silly gunzTarPerm modified mode [ 'docs/_static/images/casperjs-logo-squared-inv.png', 420, 438 ]
+146 silly gunzTarPerm extractEntry docs/_static/images/casperjs-logo-squared.png
+147 silly gunzTarPerm modified mode [ 'docs/_static/images/casperjs-logo-squared.png', 420, 438 ]
+148 silly gunzTarPerm extractEntry docs/_static/images/casperjs-logo-xsmall.png
+149 silly gunzTarPerm modified mode [ 'docs/_static/images/casperjs-logo-xsmall.png', 420, 438 ]
+150 silly gunzTarPerm extractEntry docs/_static/images/casperjs-logo.png
+151 silly gunzTarPerm modified mode [ 'docs/_static/images/casperjs-logo.png', 420, 438 ]
+152 silly gunzTarPerm extractEntry docs/_static/images/casperjs-rounded.png
+153 silly gunzTarPerm modified mode [ 'docs/_static/images/casperjs-rounded.png', 420, 438 ]
+154 silly gunzTarPerm extractEntry docs/_static/images/colorizer.png
+155 silly gunzTarPerm modified mode [ 'docs/_static/images/colorizer.png', 420, 438 ]
+156 silly gunzTarPerm extractEntry docs/_static/images/casperjs-logo-medium.png
+157 silly gunzTarPerm modified mode [ 'docs/_static/images/casperjs-logo-medium.png', 420, 438 ]
+158 silly gunzTarPerm extractEntry docs/_static/images/cow-test-ok.png
+159 silly gunzTarPerm modified mode [ 'docs/_static/images/cow-test-ok.png', 420, 438 ]
+160 silly gunzTarPerm extractEntry docs/_static/images/demo.png
+161 silly gunzTarPerm modified mode [ 'docs/_static/images/demo.png', 420, 438 ]
+162 silly gunzTarPerm extractEntry docs/_static/images/evaluate-diagram.png
+163 silly gunzTarPerm modified mode [ 'docs/_static/images/evaluate-diagram.png', 420, 438 ]
+164 silly gunzTarPerm extractEntry docs/_static/images/forkme.png
+165 silly gunzTarPerm modified mode [ 'docs/_static/images/forkme.png', 420, 438 ]
+166 silly gunzTarPerm extractEntry docs/_static/images/logoutput.png
+167 silly gunzTarPerm modified mode [ 'docs/_static/images/logoutput.png', 420, 438 ]
+168 silly gunzTarPerm extractEntry docs/_static/images/split-test-results.png
+169 silly gunzTarPerm modified mode [ 'docs/_static/images/split-test-results.png', 420, 438 ]
+170 silly gunzTarPerm extractEntry docs/_static/images/tar.png
+171 silly gunzTarPerm modified mode [ 'docs/_static/images/tar.png', 420, 438 ]
+172 silly gunzTarPerm extractEntry docs/_static/images/testsuiteok.png
+173 silly gunzTarPerm modified mode [ 'docs/_static/images/testsuiteok.png', 420, 438 ]
+174 silly gunzTarPerm extractEntry docs/_static/images/zip.png
+175 silly gunzTarPerm modified mode [ 'docs/_static/images/zip.png', 420, 438 ]
+176 silly gunzTarPerm extractEntry docs/_themes/casperjs/addon.html
+177 silly gunzTarPerm modified mode [ 'docs/_themes/casperjs/addon.html', 420, 438 ]
+178 silly gunzTarPerm extractEntry docs/_themes/casperjs/layout.html
+179 silly gunzTarPerm modified mode [ 'docs/_themes/casperjs/layout.html', 420, 438 ]
+180 silly gunzTarPerm extractEntry docs/_themes/casperjs/localtoc.html
+181 silly gunzTarPerm modified mode [ 'docs/_themes/casperjs/localtoc.html', 420, 438 ]
+182 silly gunzTarPerm extractEntry docs/_themes/casperjs/sourcelink.html
+183 silly gunzTarPerm modified mode [ 'docs/_themes/casperjs/sourcelink.html', 420, 438 ]
+184 silly gunzTarPerm extractEntry docs/_themes/casperjs/static/style-switcher.js
+185 silly gunzTarPerm modified mode [ 'docs/_themes/casperjs/static/style-switcher.js', 420, 438 ]
+186 silly gunzTarPerm extractEntry docs/_themes/casperjs/static/casperjs-dark.css
+187 silly gunzTarPerm modified mode [ 'docs/_themes/casperjs/static/casperjs-dark.css', 420, 438 ]
+188 silly gunzTarPerm extractEntry docs/_themes/casperjs/static/casperjs-light.css
+189 silly gunzTarPerm modified mode [ 'docs/_themes/casperjs/static/casperjs-light.css', 420, 438 ]
+190 silly gunzTarPerm extractEntry docs/_themes/casperjs/theme.conf
+191 silly gunzTarPerm modified mode [ 'docs/_themes/casperjs/theme.conf', 420, 438 ]
+192 silly gunzTarPerm extractEntry docs/changelog.rst
+193 silly gunzTarPerm modified mode [ 'docs/changelog.rst', 420, 438 ]
+194 silly gunzTarPerm extractEntry docs/cli.rst
+195 silly gunzTarPerm modified mode [ 'docs/cli.rst', 420, 438 ]
+196 silly gunzTarPerm extractEntry docs/conf.py
+197 silly gunzTarPerm modified mode [ 'docs/conf.py', 420, 438 ]
+198 silly gunzTarPerm extractEntry docs/cookbook.rst
+199 silly gunzTarPerm modified mode [ 'docs/cookbook.rst', 420, 438 ]
+200 silly gunzTarPerm extractEntry docs/credits.rst
+201 silly gunzTarPerm modified mode [ 'docs/credits.rst', 420, 438 ]
+202 silly gunzTarPerm extractEntry docs/debugging.rst
+203 silly gunzTarPerm modified mode [ 'docs/debugging.rst', 420, 438 ]
+204 silly gunzTarPerm extractEntry docs/events-filters.rst
+205 silly gunzTarPerm modified mode [ 'docs/events-filters.rst', 420, 438 ]
+206 silly gunzTarPerm extractEntry docs/extending.rst
+207 silly gunzTarPerm modified mode [ 'docs/extending.rst', 420, 438 ]
+208 silly gunzTarPerm extractEntry docs/Makefile
+209 silly gunzTarPerm modified mode [ 'docs/Makefile', 420, 438 ]
+210 silly gunzTarPerm extractEntry docs/index.rst
+211 silly gunzTarPerm modified mode [ 'docs/index.rst', 420, 438 ]
+212 silly gunzTarPerm extractEntry docs/installation.rst
+213 silly gunzTarPerm modified mode [ 'docs/installation.rst', 420, 438 ]
+214 silly gunzTarPerm extractEntry docs/known_issues.rst
+215 silly gunzTarPerm modified mode [ 'docs/known_issues.rst', 420, 438 ]
+216 silly gunzTarPerm extractEntry docs/license.rst
+217 silly gunzTarPerm modified mode [ 'docs/license.rst', 420, 438 ]
+218 silly gunzTarPerm extractEntry docs/logging.rst
+219 silly gunzTarPerm modified mode [ 'docs/logging.rst', 420, 438 ]
+220 silly gunzTarPerm extractEntry docs/modules/casper.rst
+221 silly gunzTarPerm modified mode [ 'docs/modules/casper.rst', 420, 438 ]
+222 silly gunzTarPerm extractEntry docs/modules/clientutils.rst
+223 silly gunzTarPerm modified mode [ 'docs/modules/clientutils.rst', 420, 438 ]
+224 silly gunzTarPerm extractEntry docs/modules/colorizer.rst
+225 silly gunzTarPerm modified mode [ 'docs/modules/colorizer.rst', 420, 438 ]
+226 silly gunzTarPerm extractEntry docs/modules/index.rst
+227 silly gunzTarPerm modified mode [ 'docs/modules/index.rst', 420, 438 ]
+228 silly gunzTarPerm extractEntry docs/modules/mouse.rst
+229 silly gunzTarPerm modified mode [ 'docs/modules/mouse.rst', 420, 438 ]
+230 silly gunzTarPerm extractEntry docs/modules/tester.rst
+231 silly gunzTarPerm modified mode [ 'docs/modules/tester.rst', 420, 438 ]
+232 silly gunzTarPerm extractEntry docs/modules/utils.rst
+233 silly gunzTarPerm modified mode [ 'docs/modules/utils.rst', 420, 438 ]
+234 silly gunzTarPerm extractEntry docs/quickstart.rst
+235 silly gunzTarPerm modified mode [ 'docs/quickstart.rst', 420, 438 ]
+236 silly gunzTarPerm extractEntry docs/selectors.rst
+237 silly gunzTarPerm modified mode [ 'docs/selectors.rst', 420, 438 ]
+238 silly gunzTarPerm extractEntry docs/testing.rst
+239 silly gunzTarPerm modified mode [ 'docs/testing.rst', 420, 438 ]
+240 silly gunzTarPerm extractEntry docs/upgrading/1.1.rst
+241 silly gunzTarPerm modified mode [ 'docs/upgrading/1.1.rst', 420, 438 ]
+242 silly gunzTarPerm extractEntry docs/upgrading/index.rst
+243 silly gunzTarPerm modified mode [ 'docs/upgrading/index.rst', 420, 438 ]
+244 silly gunzTarPerm extractEntry docs/writing_modules.rst
+245 silly gunzTarPerm modified mode [ 'docs/writing_modules.rst', 420, 438 ]
+246 silly gunzTarPerm extractEntry modules/casper.js
+247 silly gunzTarPerm modified mode [ 'modules/casper.js', 420, 438 ]
+248 silly gunzTarPerm extractEntry modules/clientutils.js
+249 silly gunzTarPerm modified mode [ 'modules/clientutils.js', 420, 438 ]
+250 silly gunzTarPerm extractEntry modules/colorizer.js
+251 silly gunzTarPerm modified mode [ 'modules/colorizer.js', 420, 438 ]
+252 silly gunzTarPerm extractEntry modules/events.js
+253 silly gunzTarPerm modified mode [ 'modules/events.js', 420, 438 ]
+254 silly gunzTarPerm extractEntry modules/http.js
+255 silly gunzTarPerm modified mode [ 'modules/http.js', 420, 438 ]
+256 silly gunzTarPerm extractEntry modules/cli.js
+257 silly gunzTarPerm modified mode [ 'modules/cli.js', 420, 438 ]
+258 silly gunzTarPerm extractEntry modules/pagestack.js
+259 silly gunzTarPerm modified mode [ 'modules/pagestack.js', 420, 438 ]
+260 silly gunzTarPerm extractEntry modules/querystring.js
+261 silly gunzTarPerm modified mode [ 'modules/querystring.js', 420, 438 ]
+262 silly gunzTarPerm extractEntry modules/tester.js
+263 silly gunzTarPerm modified mode [ 'modules/tester.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry modules/utils.js
+265 silly gunzTarPerm modified mode [ 'modules/utils.js', 420, 438 ]
+266 silly gunzTarPerm extractEntry modules/xunit.js
+267 silly gunzTarPerm modified mode [ 'modules/xunit.js', 420, 438 ]
+268 silly gunzTarPerm extractEntry modules/mouse.js
+269 silly gunzTarPerm modified mode [ 'modules/mouse.js', 420, 438 ]
+270 silly gunzTarPerm extractEntry .eslintignore
+271 silly gunzTarPerm modified mode [ '.eslintignore', 420, 438 ]
+272 silly gunzTarPerm extractEntry rpm/build
+273 silly gunzTarPerm modified mode [ 'rpm/build', 493, 511 ]
+274 silly gunzTarPerm extractEntry rpm/casperjs.spec
+275 silly gunzTarPerm modified mode [ 'rpm/casperjs.spec', 420, 438 ]
+276 silly gunzTarPerm extractEntry samples/translate.js
+277 silly gunzTarPerm modified mode [ 'samples/translate.js', 420, 438 ]
+278 silly gunzTarPerm extractEntry samples/customlogging.js
+279 silly gunzTarPerm modified mode [ 'samples/customlogging.js', 420, 438 ]
+280 silly gunzTarPerm extractEntry samples/screenshot.js
+281 silly gunzTarPerm modified mode [ 'samples/screenshot.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry samples/download.js
+283 silly gunzTarPerm modified mode [ 'samples/download.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry samples/multirun.js
+285 silly gunzTarPerm modified mode [ 'samples/multirun.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry samples/statushandlers.js
+287 silly gunzTarPerm modified mode [ 'samples/statushandlers.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry samples/metaextract.js
+289 silly gunzTarPerm modified mode [ 'samples/metaextract.js', 420, 438 ]
+290 silly gunzTarPerm extractEntry samples/each.js
+291 silly gunzTarPerm modified mode [ 'samples/each.js', 420, 438 ]
+292 silly gunzTarPerm extractEntry samples/logcolor.js
+293 silly gunzTarPerm modified mode [ 'samples/logcolor.js', 420, 438 ]
+294 silly gunzTarPerm extractEntry samples/events.js
+295 silly gunzTarPerm modified mode [ 'samples/events.js', 420, 438 ]
+296 silly gunzTarPerm extractEntry samples/googletesting.js
+297 silly gunzTarPerm modified mode [ 'samples/googletesting.js', 420, 438 ]
+298 silly gunzTarPerm extractEntry samples/customevents.js
+299 silly gunzTarPerm modified mode [ 'samples/customevents.js', 420, 438 ]
+300 silly gunzTarPerm extractEntry samples/extends.js
+301 silly gunzTarPerm modified mode [ 'samples/extends.js', 420, 438 ]
+302 silly gunzTarPerm extractEntry samples/steptimeout.js
+303 silly gunzTarPerm modified mode [ 'samples/steptimeout.js', 420, 438 ]
+304 silly gunzTarPerm extractEntry samples/googlepagination.js
+305 silly gunzTarPerm modified mode [ 'samples/googlepagination.js', 420, 438 ]
+306 silly gunzTarPerm extractEntry samples/cliplay.js
+307 silly gunzTarPerm modified mode [ 'samples/cliplay.js', 420, 438 ]
+308 silly gunzTarPerm extractEntry samples/googlelinks.js
+309 silly gunzTarPerm modified mode [ 'samples/googlelinks.js', 420, 438 ]
+310 silly gunzTarPerm extractEntry samples/timeout.js
+311 silly gunzTarPerm modified mode [ 'samples/timeout.js', 420, 438 ]
+312 silly gunzTarPerm extractEntry samples/bbcshots.js
+313 silly gunzTarPerm modified mode [ 'samples/bbcshots.js', 420, 438 ]
+314 silly gunzTarPerm extractEntry samples/dynamic.js
+315 silly gunzTarPerm modified mode [ 'samples/dynamic.js', 420, 438 ]
+316 silly gunzTarPerm extractEntry samples/googlematch.js
+317 silly gunzTarPerm modified mode [ 'samples/googlematch.js', 420, 438 ]
+318 silly gunzTarPerm extractEntry samples/dynamic.coffee
+319 silly gunzTarPerm modified mode [ 'samples/dynamic.coffee', 420, 438 ]
+320 silly gunzTarPerm extractEntry samples/googlematch.coffee
+321 silly gunzTarPerm modified mode [ 'samples/googlematch.coffee', 420, 438 ]
+322 silly gunzTarPerm extractEntry samples/googlelinks.coffee
+323 silly gunzTarPerm modified mode [ 'samples/googlelinks.coffee', 420, 438 ]
+324 silly gunzTarPerm extractEntry samples/googletesting.coffee
+325 silly gunzTarPerm modified mode [ 'samples/googletesting.coffee', 420, 438 ]
+326 silly gunzTarPerm extractEntry samples/extends.coffee
+327 silly gunzTarPerm modified mode [ 'samples/extends.coffee', 420, 438 ]
+328 silly gunzTarPerm extractEntry samples/logcolor.coffee
+329 silly gunzTarPerm modified mode [ 'samples/logcolor.coffee', 420, 438 ]
+330 silly gunzTarPerm extractEntry samples/events.coffee
+331 silly gunzTarPerm modified mode [ 'samples/events.coffee', 420, 438 ]
+332 silly gunzTarPerm extractEntry samples/metaextract.coffee
+333 silly gunzTarPerm modified mode [ 'samples/metaextract.coffee', 420, 438 ]
+334 silly gunzTarPerm extractEntry samples/each.coffee
+335 silly gunzTarPerm modified mode [ 'samples/each.coffee', 420, 438 ]
+336 silly gunzTarPerm extractEntry samples/multirun.coffee
+337 silly gunzTarPerm modified mode [ 'samples/multirun.coffee', 420, 438 ]
+338 silly gunzTarPerm extractEntry samples/googlepagination.coffee
+339 silly gunzTarPerm modified mode [ 'samples/googlepagination.coffee', 420, 438 ]
+340 silly gunzTarPerm extractEntry samples/screenshot.coffee
+341 silly gunzTarPerm modified mode [ 'samples/screenshot.coffee', 420, 438 ]
+342 silly gunzTarPerm extractEntry samples/download.coffee
+343 silly gunzTarPerm modified mode [ 'samples/download.coffee', 420, 438 ]
+344 silly gunzTarPerm extractEntry samples/statushandlers.coffee
+345 silly gunzTarPerm modified mode [ 'samples/statushandlers.coffee', 420, 438 ]
+346 silly gunzTarPerm extractEntry samples/customlogging.coffee
+347 silly gunzTarPerm modified mode [ 'samples/customlogging.coffee', 420, 438 ]
+348 silly gunzTarPerm extractEntry samples/steptimeout.coffee
+349 silly gunzTarPerm modified mode [ 'samples/steptimeout.coffee', 420, 438 ]
+350 silly gunzTarPerm extractEntry samples/customevents.coffee
+351 silly gunzTarPerm modified mode [ 'samples/customevents.coffee', 420, 438 ]
+352 silly gunzTarPerm extractEntry samples/timeout.coffee
+353 silly gunzTarPerm modified mode [ 'samples/timeout.coffee', 420, 438 ]
+354 silly gunzTarPerm extractEntry samples/cliplay.coffee
+355 silly gunzTarPerm modified mode [ 'samples/cliplay.coffee', 420, 438 ]
+356 silly gunzTarPerm extractEntry samples/translate.coffee
+357 silly gunzTarPerm modified mode [ 'samples/translate.coffee', 420, 438 ]
+358 silly gunzTarPerm extractEntry samples/bbcshots.coffee
+359 silly gunzTarPerm modified mode [ 'samples/bbcshots.coffee', 420, 438 ]
+360 silly gunzTarPerm extractEntry src/casperjs.cs
+361 silly gunzTarPerm modified mode [ 'src/casperjs.cs', 493, 511 ]
+362 silly gunzTarPerm extractEntry tests/run.js
+363 silly gunzTarPerm modified mode [ 'tests/run.js', 420, 438 ]
+364 silly gunzTarPerm extractEntry tests/selftest.js
+365 silly gunzTarPerm modified mode [ 'tests/selftest.js', 420, 438 ]
+366 silly gunzTarPerm extractEntry tests/clitests/error/syntax.js
+367 silly gunzTarPerm modified mode [ 'tests/clitests/error/syntax.js', 420, 438 ]
+368 silly gunzTarPerm extractEntry tests/clitests/fail-fast/manual-abort/index.js
+369 silly gunzTarPerm modified mode [ 'tests/clitests/fail-fast/manual-abort/index.js', 420, 438 ]
+370 silly gunzTarPerm extractEntry tests/clitests/fail-fast/standard/hook.js
+371 silly gunzTarPerm modified mode [ 'tests/clitests/fail-fast/standard/hook.js', 420, 438 ]
+372 silly gunzTarPerm extractEntry tests/clitests/fail-fast/standard/test1.js
+373 silly gunzTarPerm modified mode [ 'tests/clitests/fail-fast/standard/test1.js', 420, 438 ]
+374 silly gunzTarPerm extractEntry tests/clitests/fail-fast/standard/test2.js
+375 silly gunzTarPerm modified mode [ 'tests/clitests/fail-fast/standard/test2.js', 420, 438 ]
+376 silly gunzTarPerm extractEntry tests/clitests/fail-fast/standard/test3.js
+377 silly gunzTarPerm modified mode [ 'tests/clitests/fail-fast/standard/test3.js', 420, 438 ]
+378 silly gunzTarPerm extractEntry tests/clitests/modules/mod.js
+379 silly gunzTarPerm modified mode [ 'tests/clitests/modules/mod.js', 420, 438 ]
+380 silly gunzTarPerm extractEntry tests/clitests/modules/test_node_mod_json_package.js
+381 silly gunzTarPerm modified mode [ 'tests/clitests/modules/test_node_mod_json_package.js',
+381 silly gunzTarPerm   420,
+381 silly gunzTarPerm   438 ]
+382 silly gunzTarPerm extractEntry tests/clitests/modules/test.js
+383 silly gunzTarPerm modified mode [ 'tests/clitests/modules/test.js', 420, 438 ]
+384 silly gunzTarPerm extractEntry tests/clitests/modules/test_coffee.js
+385 silly gunzTarPerm modified mode [ 'tests/clitests/modules/test_coffee.js', 420, 438 ]
+386 silly gunzTarPerm extractEntry tests/clitests/modules/test_node_mod_index.js
+387 silly gunzTarPerm modified mode [ 'tests/clitests/modules/test_node_mod_index.js', 420, 438 ]
+388 silly gunzTarPerm extractEntry tests/clitests/modules/test_node_mod.js
+389 silly gunzTarPerm modified mode [ 'tests/clitests/modules/test_node_mod.js', 420, 438 ]
+390 silly gunzTarPerm extractEntry tests/clitests/modules/test_patched_require.js
+391 silly gunzTarPerm modified mode [ 'tests/clitests/modules/test_patched_require.js', 420, 438 ]
+392 silly gunzTarPerm extractEntry tests/clitests/modules/test_node_json.js
+393 silly gunzTarPerm modified mode [ 'tests/clitests/modules/test_node_json.js', 420, 438 ]
+394 silly gunzTarPerm extractEntry tests/clitests/modules/sub/mod.js
+395 silly gunzTarPerm modified mode [ 'tests/clitests/modules/sub/mod.js', 420, 438 ]
+396 silly gunzTarPerm extractEntry tests/clitests/modules/sub/coffeemod.coffee
+397 silly gunzTarPerm modified mode [ 'tests/clitests/modules/sub/coffeemod.coffee', 420, 438 ]
+398 silly gunzTarPerm extractEntry tests/clitests/modules/test_node_subdir/test_node_mod.js
+399 silly gunzTarPerm modified mode [ 'tests/clitests/modules/test_node_subdir/test_node_mod.js',
+399 silly gunzTarPerm   420,
+399 silly gunzTarPerm   438 ]
+400 silly gunzTarPerm extractEntry tests/clitests/modules/node_modules/bar.js
+401 silly gunzTarPerm modified mode [ 'tests/clitests/modules/node_modules/bar.js', 420, 438 ]
+402 silly gunzTarPerm extractEntry tests/clitests/modules/node_modules/baz/package.json
+403 silly gunzTarPerm modified mode [ 'tests/clitests/modules/node_modules/baz/package.json',
+403 silly gunzTarPerm   420,
+403 silly gunzTarPerm   438 ]
+404 silly gunzTarPerm extractEntry tests/clitests/modules/node_modules/baz/baz.js
+405 silly gunzTarPerm modified mode [ 'tests/clitests/modules/node_modules/baz/baz.js', 420, 438 ]
+406 silly gunzTarPerm extractEntry tests/clitests/modules/node_modules/foo/index.js
+407 silly gunzTarPerm modified mode [ 'tests/clitests/modules/node_modules/foo/index.js', 420, 438 ]
+408 silly gunzTarPerm extractEntry tests/clitests/modules/node_modules/json.json
+409 silly gunzTarPerm modified mode [ 'tests/clitests/modules/node_modules/json.json', 420, 438 ]
+410 silly gunzTarPerm extractEntry tests/clitests/runtests.py
+411 silly gunzTarPerm modified mode [ 'tests/clitests/runtests.py', 420, 438 ]
+412 silly gunzTarPerm extractEntry tests/clitests/scripts/options.js
+413 silly gunzTarPerm modified mode [ 'tests/clitests/scripts/options.js', 420, 438 ]
+414 silly gunzTarPerm extractEntry tests/clitests/scripts/script.js
+415 silly gunzTarPerm modified mode [ 'tests/clitests/scripts/script.js', 420, 438 ]
+416 silly gunzTarPerm extractEntry tests/clitests/tester/casper-instance-override.js
+417 silly gunzTarPerm modified mode [ 'tests/clitests/tester/casper-instance-override.js', 420, 438 ]
+418 silly gunzTarPerm extractEntry tests/clitests/tester/dubious.js
+419 silly gunzTarPerm modified mode [ 'tests/clitests/tester/dubious.js', 420, 438 ]
+420 silly gunzTarPerm extractEntry tests/clitests/tester/exit.js
+421 silly gunzTarPerm modified mode [ 'tests/clitests/tester/exit.js', 420, 438 ]
+422 silly gunzTarPerm extractEntry tests/clitests/tester/failing.js
+423 silly gunzTarPerm modified mode [ 'tests/clitests/tester/failing.js', 420, 438 ]
+424 silly gunzTarPerm extractEntry tests/clitests/tester/mytest.js
+425 silly gunzTarPerm modified mode [ 'tests/clitests/tester/mytest.js', 420, 438 ]
+426 silly gunzTarPerm extractEntry tests/clitests/tester/passing.js
+427 silly gunzTarPerm modified mode [ 'tests/clitests/tester/passing.js', 420, 438 ]
+428 silly gunzTarPerm extractEntry tests/clitests/tester/skipped.js
+429 silly gunzTarPerm modified mode [ 'tests/clitests/tester/skipped.js', 420, 438 ]
+430 silly gunzTarPerm extractEntry tests/clitests/tester/step_throws.js
+431 silly gunzTarPerm modified mode [ 'tests/clitests/tester/step_throws.js', 420, 438 ]
+432 silly gunzTarPerm extractEntry tests/clitests/tester/waitFor_timeout.js
+433 silly gunzTarPerm modified mode [ 'tests/clitests/tester/waitFor_timeout.js', 420, 438 ]
+434 silly gunzTarPerm extractEntry tests/sample_modules/jsmodule.js
+435 silly gunzTarPerm modified mode [ 'tests/sample_modules/jsmodule.js', 420, 438 ]
+436 silly gunzTarPerm extractEntry tests/sample_modules/config.json
+437 silly gunzTarPerm modified mode [ 'tests/sample_modules/config.json', 420, 438 ]
+438 silly gunzTarPerm extractEntry tests/sample_modules/csmodule.coffee
+439 silly gunzTarPerm modified mode [ 'tests/sample_modules/csmodule.coffee', 420, 438 ]
+440 silly gunzTarPerm extractEntry tests/site/dummy.js
+441 silly gunzTarPerm modified mode [ 'tests/site/dummy.js', 420, 438 ]
+442 silly gunzTarPerm extractEntry tests/site/has%20space.html
+443 silly gunzTarPerm modified mode [ 'tests/site/has%20space.html', 420, 438 ]
+444 silly gunzTarPerm extractEntry tests/site/callback.html
+445 silly gunzTarPerm modified mode [ 'tests/site/callback.html', 420, 438 ]
+446 silly gunzTarPerm extractEntry tests/site/click.html
+447 silly gunzTarPerm modified mode [ 'tests/site/click.html', 420, 438 ]
+448 silly gunzTarPerm extractEntry tests/site/close.html
+449 silly gunzTarPerm modified mode [ 'tests/site/close.html', 420, 438 ]
+450 silly gunzTarPerm extractEntry tests/site/confirm.html
+451 silly gunzTarPerm modified mode [ 'tests/site/confirm.html', 420, 438 ]
+452 silly gunzTarPerm extractEntry tests/site/csv/base64encode.csv
+453 silly gunzTarPerm modified mode [ 'tests/site/csv/base64encode.csv', 420, 438 ]
+454 silly gunzTarPerm extractEntry tests/site/alert.html
+455 silly gunzTarPerm modified mode [ 'tests/site/alert.html', 420, 438 ]
+456 silly gunzTarPerm extractEntry tests/site/dummy.json
+457 silly gunzTarPerm modified mode [ 'tests/site/dummy.json', 420, 438 ]
+458 silly gunzTarPerm extractEntry tests/site/dummy.txt
+459 silly gunzTarPerm modified mode [ 'tests/site/dummy.txt', 420, 438 ]
+460 silly gunzTarPerm extractEntry tests/site/elementattribute.html
+461 silly gunzTarPerm modified mode [ 'tests/site/elementattribute.html', 420, 438 ]
+462 silly gunzTarPerm extractEntry tests/site/error.html
+463 silly gunzTarPerm modified mode [ 'tests/site/error.html', 420, 438 ]
+464 silly gunzTarPerm extractEntry tests/site/field-array.html
+465 silly gunzTarPerm modified mode [ 'tests/site/field-array.html', 420, 438 ]
+466 silly gunzTarPerm extractEntry tests/site/field-file-multiple.html
+467 silly gunzTarPerm modified mode [ 'tests/site/field-file-multiple.html', 420, 438 ]
+468 silly gunzTarPerm extractEntry tests/site/form.html
+469 silly gunzTarPerm modified mode [ 'tests/site/form.html', 420, 438 ]
+470 silly gunzTarPerm extractEntry tests/site/frame1.html
+471 silly gunzTarPerm modified mode [ 'tests/site/frame1.html', 420, 438 ]
+472 silly gunzTarPerm extractEntry tests/site/frame2.html
+473 silly gunzTarPerm modified mode [ 'tests/site/frame2.html', 420, 438 ]
+474 silly gunzTarPerm extractEntry tests/site/frame3.html
+475 silly gunzTarPerm modified mode [ 'tests/site/frame3.html', 420, 438 ]
+476 silly gunzTarPerm extractEntry tests/site/frame4.html
+477 silly gunzTarPerm modified mode [ 'tests/site/frame4.html', 420, 438 ]
+478 silly gunzTarPerm extractEntry tests/site/frames.html
+479 silly gunzTarPerm modified mode [ 'tests/site/frames.html', 420, 438 ]
+480 silly gunzTarPerm extractEntry tests/site/global.html
+481 silly gunzTarPerm modified mode [ 'tests/site/global.html', 420, 438 ]
+482 silly gunzTarPerm extractEntry tests/site/area.html
+483 silly gunzTarPerm modified mode [ 'tests/site/area.html', 420, 438 ]
+484 silly gunzTarPerm extractEntry tests/site/images/phantom.png
+485 silly gunzTarPerm modified mode [ 'tests/site/images/phantom.png', 420, 438 ]
+486 silly gunzTarPerm extractEntry tests/site/includes/include1.js
+487 silly gunzTarPerm modified mode [ 'tests/site/includes/include1.js', 420, 438 ]
+488 silly gunzTarPerm extractEntry tests/site/includes/include2.js
+489 silly gunzTarPerm modified mode [ 'tests/site/includes/include2.js', 420, 438 ]
+490 silly gunzTarPerm extractEntry tests/site/index.html
+491 silly gunzTarPerm modified mode [ 'tests/site/index.html', 420, 438 ]
+492 silly gunzTarPerm extractEntry tests/site/mouse-events.html
+493 silly gunzTarPerm modified mode [ 'tests/site/mouse-events.html', 420, 438 ]
+494 silly gunzTarPerm extractEntry tests/site/multiple-forms.html
+495 silly gunzTarPerm modified mode [ 'tests/site/multiple-forms.html', 420, 438 ]
+496 silly gunzTarPerm extractEntry tests/site/multiple-popups.html
+497 silly gunzTarPerm modified mode [ 'tests/site/multiple-popups.html', 420, 438 ]
+498 silly gunzTarPerm extractEntry tests/site/page1.html
+499 silly gunzTarPerm modified mode [ 'tests/site/page1.html', 420, 438 ]
+500 silly gunzTarPerm extractEntry tests/site/page2.html
+501 silly gunzTarPerm modified mode [ 'tests/site/page2.html', 420, 438 ]
+502 silly gunzTarPerm extractEntry tests/site/page3.html
+503 silly gunzTarPerm modified mode [ 'tests/site/page3.html', 420, 438 ]
+504 silly gunzTarPerm extractEntry tests/site/plaintext.notype
+505 silly gunzTarPerm modified mode [ 'tests/site/plaintext.notype', 420, 438 ]
+506 silly gunzTarPerm extractEntry tests/site/popup.html
+507 silly gunzTarPerm modified mode [ 'tests/site/popup.html', 420, 438 ]
+508 silly gunzTarPerm extractEntry tests/site/prompt.html
+509 silly gunzTarPerm modified mode [ 'tests/site/prompt.html', 420, 438 ]
+510 silly gunzTarPerm extractEntry tests/site/redirect.html
+511 silly gunzTarPerm modified mode [ 'tests/site/redirect.html', 420, 438 ]
+512 silly gunzTarPerm extractEntry tests/site/resources.html
+513 silly gunzTarPerm modified mode [ 'tests/site/resources.html', 420, 438 ]
+514 silly gunzTarPerm extractEntry tests/site/result.html
+515 silly gunzTarPerm modified mode [ 'tests/site/result.html', 420, 438 ]
+516 silly gunzTarPerm extractEntry tests/site/selector.html
+517 silly gunzTarPerm modified mode [ 'tests/site/selector.html', 420, 438 ]
+518 silly gunzTarPerm extractEntry tests/site/test.html
+519 silly gunzTarPerm modified mode [ 'tests/site/test.html', 420, 438 ]
+520 silly gunzTarPerm extractEntry tests/site/urls.html
+521 silly gunzTarPerm modified mode [ 'tests/site/urls.html', 420, 438 ]
+522 silly gunzTarPerm extractEntry tests/site/visible.html
+523 silly gunzTarPerm modified mode [ 'tests/site/visible.html', 420, 438 ]
+524 silly gunzTarPerm extractEntry tests/site/waitFor.html
+525 silly gunzTarPerm modified mode [ 'tests/site/waitFor.html', 420, 438 ]
+526 silly gunzTarPerm extractEntry tests/suites/xunit.js
+527 silly gunzTarPerm modified mode [ 'tests/suites/xunit.js', 420, 438 ]
+528 silly gunzTarPerm extractEntry tests/suites/cli.js
+529 silly gunzTarPerm modified mode [ 'tests/suites/cli.js', 420, 438 ]
+530 silly gunzTarPerm extractEntry tests/suites/clientutils.js
+531 silly gunzTarPerm modified mode [ 'tests/suites/clientutils.js', 420, 438 ]
+532 silly gunzTarPerm extractEntry tests/suites/utils.js
+533 silly gunzTarPerm modified mode [ 'tests/suites/utils.js', 420, 438 ]
+534 silly gunzTarPerm extractEntry tests/suites/fs.js
+535 silly gunzTarPerm modified mode [ 'tests/suites/fs.js', 420, 438 ]
+536 silly gunzTarPerm extractEntry tests/suites/require.js
+537 silly gunzTarPerm modified mode [ 'tests/suites/require.js', 420, 438 ]
+538 silly gunzTarPerm extractEntry tests/suites/pagestack.js
+539 silly gunzTarPerm modified mode [ 'tests/suites/pagestack.js', 420, 438 ]
+540 silly gunzTarPerm extractEntry tests/suites/http_status.js
+541 silly gunzTarPerm modified mode [ 'tests/suites/http_status.js', 420, 438 ]
+542 silly gunzTarPerm extractEntry tests/suites/casper/xpath.js
+543 silly gunzTarPerm modified mode [ 'tests/suites/casper/xpath.js', 420, 438 ]
+544 silly gunzTarPerm extractEntry tests/suites/casper/frames.js
+545 silly gunzTarPerm modified mode [ 'tests/suites/casper/frames.js', 420, 438 ]
+546 silly gunzTarPerm extractEntry tests/suites/casper/getplaintext.js
+547 silly gunzTarPerm modified mode [ 'tests/suites/casper/getplaintext.js', 420, 438 ]
+548 silly gunzTarPerm extractEntry tests/suites/casper/global.js
+549 silly gunzTarPerm modified mode [ 'tests/suites/casper/global.js', 420, 438 ]
+550 silly gunzTarPerm extractEntry tests/suites/casper/headers.js
+551 silly gunzTarPerm modified mode [ 'tests/suites/casper/headers.js', 420, 438 ]
+552 silly gunzTarPerm extractEntry tests/suites/casper/formfill.js
+553 silly gunzTarPerm modified mode [ 'tests/suites/casper/formfill.js', 420, 438 ]
+554 silly gunzTarPerm extractEntry tests/suites/casper/agent.js
+555 silly gunzTarPerm modified mode [ 'tests/suites/casper/agent.js', 420, 438 ]
+556 silly gunzTarPerm extractEntry tests/suites/casper/keys.js
+557 silly gunzTarPerm modified mode [ 'tests/suites/casper/keys.js', 420, 438 ]
+558 silly gunzTarPerm extractEntry tests/suites/casper/location.js
+559 silly gunzTarPerm modified mode [ 'tests/suites/casper/location.js', 420, 438 ]
+560 silly gunzTarPerm extractEntry tests/suites/casper/logging.js
+561 silly gunzTarPerm modified mode [ 'tests/suites/casper/logging.js', 420, 438 ]
+562 silly gunzTarPerm extractEntry tests/suites/casper/mouseevents.js
+563 silly gunzTarPerm modified mode [ 'tests/suites/casper/mouseevents.js', 420, 438 ]
+564 silly gunzTarPerm extractEntry tests/suites/casper/wait.js
+565 silly gunzTarPerm modified mode [ 'tests/suites/casper/wait.js', 420, 438 ]
+566 silly gunzTarPerm extractEntry tests/suites/casper/multiplepopups.js
+567 silly gunzTarPerm modified mode [ 'tests/suites/casper/multiplepopups.js', 420, 438 ]
+568 silly gunzTarPerm extractEntry tests/suites/casper/fetchtext.js
+569 silly gunzTarPerm modified mode [ 'tests/suites/casper/fetchtext.js', 420, 438 ]
+570 silly gunzTarPerm extractEntry tests/suites/casper/navigation.js
+571 silly gunzTarPerm modified mode [ 'tests/suites/casper/navigation.js', 420, 438 ]
+572 silly gunzTarPerm extractEntry tests/suites/casper/exists.js
+573 silly gunzTarPerm modified mode [ 'tests/suites/casper/exists.js', 420, 438 ]
+574 silly gunzTarPerm extractEntry tests/suites/casper/newpage.js
+575 silly gunzTarPerm modified mode [ 'tests/suites/casper/newpage.js', 420, 438 ]
+576 silly gunzTarPerm extractEntry tests/suites/casper/events.js
+577 silly gunzTarPerm modified mode [ 'tests/suites/casper/events.js', 420, 438 ]
+578 silly gunzTarPerm extractEntry tests/suites/casper/onerror.js
+579 silly gunzTarPerm modified mode [ 'tests/suites/casper/onerror.js', 420, 438 ]
+580 silly gunzTarPerm extractEntry tests/suites/casper/evaluate.js
+581 silly gunzTarPerm modified mode [ 'tests/suites/casper/evaluate.js', 420, 438 ]
+582 silly gunzTarPerm extractEntry tests/suites/casper/open.js
+583 silly gunzTarPerm modified mode [ 'tests/suites/casper/open.js', 420, 438 ]
+584 silly gunzTarPerm extractEntry tests/suites/casper/encodedurl.js
+585 silly gunzTarPerm modified mode [ 'tests/suites/casper/encodedurl.js', 420, 438 ]
+586 silly gunzTarPerm extractEntry tests/suites/casper/pagerequest.js
+587 silly gunzTarPerm modified mode [ 'tests/suites/casper/pagerequest.js', 420, 438 ]
+588 silly gunzTarPerm extractEntry tests/suites/casper/encode.js
+589 silly gunzTarPerm modified mode [ 'tests/suites/casper/encode.js', 420, 438 ]
+590 silly gunzTarPerm extractEntry tests/suites/casper/popup.js
+591 silly gunzTarPerm modified mode [ 'tests/suites/casper/popup.js', 420, 438 ]
+592 silly gunzTarPerm extractEntry tests/suites/casper/elementattribute.js
+593 silly gunzTarPerm modified mode [ 'tests/suites/casper/elementattribute.js', 420, 438 ]
+594 silly gunzTarPerm extractEntry tests/suites/casper/prompt.js
+595 silly gunzTarPerm modified mode [ 'tests/suites/casper/prompt.js', 420, 438 ]
+596 silly gunzTarPerm extractEntry tests/suites/casper/debug.js
+597 silly gunzTarPerm modified mode [ 'tests/suites/casper/debug.js', 420, 438 ]
+598 silly gunzTarPerm extractEntry tests/suites/casper/reload.js
+599 silly gunzTarPerm modified mode [ 'tests/suites/casper/reload.js', 420, 438 ]
+600 silly gunzTarPerm extractEntry tests/suites/casper/css3selector.js
+601 silly gunzTarPerm modified mode [ 'tests/suites/casper/css3selector.js', 420, 438 ]
+602 silly gunzTarPerm extractEntry tests/suites/casper/visible.js
+603 silly gunzTarPerm modified mode [ 'tests/suites/casper/visible.js', 420, 438 ]
+604 silly gunzTarPerm extractEntry tests/suites/casper/content.js
+605 silly gunzTarPerm modified mode [ 'tests/suites/casper/content.js', 420, 438 ]
+606 silly gunzTarPerm extractEntry tests/suites/casper/request.js
+607 silly gunzTarPerm modified mode [ 'tests/suites/casper/request.js', 420, 438 ]
+608 silly gunzTarPerm extractEntry tests/suites/casper/confirm.js
+609 silly gunzTarPerm modified mode [ 'tests/suites/casper/confirm.js', 420, 438 ]
+610 silly gunzTarPerm extractEntry tests/suites/casper/resources.js
+611 silly gunzTarPerm modified mode [ 'tests/suites/casper/resources.js', 420, 438 ]
+612 silly gunzTarPerm extractEntry tests/suites/casper/click.js
+613 silly gunzTarPerm modified mode [ 'tests/suites/casper/click.js', 420, 438 ]
+614 silly gunzTarPerm extractEntry tests/suites/casper/scripts.js
+615 silly gunzTarPerm modified mode [ 'tests/suites/casper/scripts.js', 420, 438 ]
+616 silly gunzTarPerm extractEntry tests/suites/casper/capture.js
+617 silly gunzTarPerm modified mode [ 'tests/suites/casper/capture.js', 420, 438 ]
+618 silly gunzTarPerm extractEntry tests/suites/casper/scroll.js
+619 silly gunzTarPerm modified mode [ 'tests/suites/casper/scroll.js', 420, 438 ]
+620 silly gunzTarPerm extractEntry tests/suites/casper/callutils.js
+621 silly gunzTarPerm modified mode [ 'tests/suites/casper/callutils.js', 420, 438 ]
+622 silly gunzTarPerm extractEntry tests/suites/casper/sendAjax.js
+623 silly gunzTarPerm modified mode [ 'tests/suites/casper/sendAjax.js', 420, 438 ]
+624 silly gunzTarPerm extractEntry tests/suites/casper/callback.js
+625 silly gunzTarPerm modified mode [ 'tests/suites/casper/callback.js', 420, 438 ]
+626 silly gunzTarPerm extractEntry tests/suites/casper/start.js
+627 silly gunzTarPerm modified mode [ 'tests/suites/casper/start.js', 420, 438 ]
+628 silly gunzTarPerm extractEntry tests/suites/casper/bypass.js
+629 silly gunzTarPerm modified mode [ 'tests/suites/casper/bypass.js', 420, 438 ]
+630 silly gunzTarPerm extractEntry tests/suites/casper/steps.js
+631 silly gunzTarPerm modified mode [ 'tests/suites/casper/steps.js', 420, 438 ]
+632 silly gunzTarPerm extractEntry tests/suites/casper/auth.js
+633 silly gunzTarPerm modified mode [ 'tests/suites/casper/auth.js', 420, 438 ]
+634 silly gunzTarPerm extractEntry tests/suites/casper/urls.js
+635 silly gunzTarPerm modified mode [ 'tests/suites/casper/urls.js', 420, 438 ]
+636 silly gunzTarPerm extractEntry tests/suites/casper/alert.js
+637 silly gunzTarPerm modified mode [ 'tests/suites/casper/alert.js', 420, 438 ]
+638 silly gunzTarPerm extractEntry tests/suites/casper/viewport.js
+639 silly gunzTarPerm modified mode [ 'tests/suites/casper/viewport.js', 420, 438 ]
+640 silly gunzTarPerm extractEntry tests/suites/casper/history.js
+641 silly gunzTarPerm modified mode [ 'tests/suites/casper/history.js', 420, 438 ]
+642 silly gunzTarPerm extractEntry tests/suites/casper/hooks.js
+643 silly gunzTarPerm modified mode [ 'tests/suites/casper/hooks.js', 420, 438 ]
+644 silly gunzTarPerm extractEntry tests/suites/casper/request.coffee
+645 silly gunzTarPerm modified mode [ 'tests/suites/casper/request.coffee', 420, 438 ]
+646 silly gunzTarPerm extractEntry tests/suites/casper/flow.coffee
+647 silly gunzTarPerm modified mode [ 'tests/suites/casper/flow.coffee', 420, 438 ]
+648 silly gunzTarPerm extractEntry tests/suites/casper/.casper
+649 silly gunzTarPerm modified mode [ 'tests/suites/casper/.casper', 420, 438 ]
+650 silly gunzTarPerm extractEntry tests/suites/tester/assert.js
+651 silly gunzTarPerm modified mode [ 'tests/suites/tester/assert.js', 420, 438 ]
+652 silly gunzTarPerm extractEntry tests/suites/tester/begin-config.js
+653 silly gunzTarPerm modified mode [ 'tests/suites/tester/begin-config.js', 420, 438 ]
+654 silly gunzTarPerm extractEntry tests/suites/tester/setup-teardown-async.js
+655 silly gunzTarPerm modified mode [ 'tests/suites/tester/setup-teardown-async.js', 420, 438 ]
+656 silly gunzTarPerm extractEntry tests/suites/tester/setup-teardown.js
+657 silly gunzTarPerm modified mode [ 'tests/suites/tester/setup-teardown.js', 420, 438 ]
+658 silly gunzTarPerm extractEntry tests/suites/tester/skip.js
+659 silly gunzTarPerm modified mode [ 'tests/suites/tester/skip.js', 420, 438 ]
+660 silly gunzTarPerm extractEntry tests/suites/tester/test-order.js
+661 silly gunzTarPerm modified mode [ 'tests/suites/tester/test-order.js', 420, 438 ]
+662 silly gunzTarPerm extractEntry tests/suites/tester/testcase.js
+663 silly gunzTarPerm modified mode [ 'tests/suites/tester/testcase.js', 420, 438 ]
+664 silly gunzTarPerm extractEntry tests/suites/tester/testsuite.js
+665 silly gunzTarPerm modified mode [ 'tests/suites/tester/testsuite.js', 420, 438 ]
+666 silly gunzTarPerm extractEntry tests/suites/tester/.casper
+667 silly gunzTarPerm modified mode [ 'tests/suites/tester/.casper', 420, 438 ]
+668 silly gunzTarPerm extractEntry tests/suites/coffee.coffee
+669 silly gunzTarPerm modified mode [ 'tests/suites/coffee.coffee', 420, 438 ]
+670 silly gunzTarPerm extractEntry tests/suites/.casper
+671 silly gunzTarPerm modified mode [ 'tests/suites/.casper', 420, 438 ]
+672 silly gunzTarPerm extractEntry tests/testdir/03_a.js
+673 silly gunzTarPerm modified mode [ 'tests/testdir/03_a.js', 420, 438 ]
+674 silly gunzTarPerm extractEntry tests/testdir/03_b.js
+675 silly gunzTarPerm modified mode [ 'tests/testdir/03_b.js', 420, 438 ]
+676 silly gunzTarPerm extractEntry tests/testdir/01_a/abc.js
+677 silly gunzTarPerm modified mode [ 'tests/testdir/01_a/abc.js', 420, 438 ]
+678 silly gunzTarPerm extractEntry tests/testdir/01_a/def.js
+679 silly gunzTarPerm modified mode [ 'tests/testdir/01_a/def.js', 420, 438 ]
+680 silly gunzTarPerm extractEntry tests/testdir/02_b/abc.js
+681 silly gunzTarPerm modified mode [ 'tests/testdir/02_b/abc.js', 420, 438 ]
+682 silly gunzTarPerm extractEntry tests/testdir/04/01_init.js
+683 silly gunzTarPerm modified mode [ 'tests/testdir/04/01_init.js', 420, 438 ]
+684 silly gunzTarPerm extractEntry tests/testdir/04/02_do.js
+685 silly gunzTarPerm modified mode [ 'tests/testdir/04/02_do.js', 420, 438 ]
+686 silly gentlyRm H:\aquascraper\node_modules\.staging\casperjs-07559eb1\node_modules is being purged
+687 verbose gentlyRm don't care about contents; nuking H:\aquascraper\node_modules\.staging\casperjs-07559eb1\node_modules
+688 silly doParallel preinstall 1
+689 silly preinstall casperjs@1.1.4 H:\aquascraper\node_modules\.staging\casperjs-07559eb1
+690 info lifecycle casperjs@1.1.4~preinstall: casperjs@1.1.4
+691 silly lifecycle casperjs@1.1.4~preinstall: no script for preinstall, continuing
+692 silly doReverseSerial remove 1
+693 silly remove H:\aquascraper\node_modules\casperjs
+694 verbose unbuild node_modules\casperjs
+695 info lifecycle casperjs@1.1.4~preuninstall: casperjs@1.1.4
+696 silly lifecycle casperjs@1.1.4~preuninstall: no script for preuninstall, continuing
+697 info lifecycle casperjs@1.1.4~uninstall: casperjs@1.1.4
+698 silly lifecycle casperjs@1.1.4~uninstall: no script for uninstall, continuing
+699 verbose unbuild rmStuff casperjs@1.1.4 from H:\aquascraper\node_modules
+700 silly gentlyRm H:\aquascraper\node_modules\.bin\casperjs.cmd is being gently removed from base H:\aquascraper\node_modules\casperjs
+701 silly isEverInside H:\aquascraper\node_modules\casperjs is not inside C:\Users\tnodell\AppData\Roaming\npm
+702 silly isEverInside H:\aquascraper\node_modules\casperjs is not inside C:\Users\tnodell\AppData\Roaming\npm\node_modules
+703 silly isEverInside H:\aquascraper\node_modules\.bin\casperjs.cmd is not inside H:\aquascraper\node_modules\casperjs
+704 silly gentlyRm parent.path = H:\aquascraper\node_modules\casperjs
+705 silly gentlyRm parent.managed = H:\aquascraper\node_modules\casperjs is in H:\aquascraper
+706 silly gentlyRm target.path =  H:\aquascraper\node_modules\.bin\casperjs.cmd
+707 silly gentlyRm target.symlink = ..\casperjs\bin\casperjs
+708 silly gentlyRm target.managed = H:\aquascraper\node_modules\.bin\casperjs.cmd is in H:\aquascraper
+709 silly gentlyRm target.inParent =  { target: 'H:\\aquascraper\\node_modules\\casperjs\\bin\\casperjs',
+709 silly gentlyRm   path: 'H:\\aquascraper\\node_modules\\casperjs' }
+710 verbose gentlyRm Vacuuming H:\aquascraper\node_modules\.bin\casperjs.cmd up to H:\aquascraper\node_modules\.bin
+711 silly vacuum-fs removing H:\aquascraper\node_modules\.bin\casperjs.cmd
+712 silly vacuum-fs finished vacuuming up to H:\aquascraper\node_modules\.bin
+713 silly gentlyRm H:\aquascraper\node_modules\.bin\casperjs is being gently removed from base H:\aquascraper\node_modules\casperjs
+714 silly isEverInside H:\aquascraper\node_modules\.bin\casperjs is not inside H:\aquascraper\node_modules\casperjs
+715 silly gentlyRm parent.path = H:\aquascraper\node_modules\casperjs
+716 silly gentlyRm parent.managed = H:\aquascraper\node_modules\casperjs is in H:\aquascraper
+717 silly gentlyRm target.path =  H:\aquascraper\node_modules\.bin\casperjs
+718 silly gentlyRm target.symlink = ../casperjs/bin/casperjs
+719 silly gentlyRm target.managed = H:\aquascraper\node_modules\.bin\casperjs is in H:\aquascraper
+720 silly gentlyRm target.inParent =  { target: 'H:\\aquascraper\\node_modules\\casperjs\\bin\\casperjs',
+720 silly gentlyRm   path: 'H:\\aquascraper\\node_modules\\casperjs' }
+721 verbose gentlyRm Vacuuming H:\aquascraper\node_modules\.bin\casperjs up to H:\aquascraper\node_modules\.bin
+722 silly vacuum-fs removing H:\aquascraper\node_modules\.bin\casperjs
+723 silly vacuum-fs finished vacuuming up to H:\aquascraper\node_modules\.bin
+724 info lifecycle casperjs@1.1.4~postuninstall: casperjs@1.1.4
+725 silly lifecycle casperjs@1.1.4~postuninstall: no script for postuninstall, continuing
+726 silly gentlyRm H:\aquascraper\node_modules\casperjs is being purged from base H:\aquascraper
+727 verbose gentlyRm don't care about contents; nuking H:\aquascraper\node_modules\casperjs
+728 silly vacuum-fs purging H:\aquascraper\node_modules\casperjs
+729 silly vacuum-fs quitting because other entries in H:\aquascraper\node_modules
+730 verbose unlock done using C:\Users\tnodell\AppData\Roaming\npm-cache\_locks\staging-6c71ff9d1d405f4f.lock for H:\aquascraper\node_modules\.staging
+731 silly rollbackFailedOptional Starting
+732 silly rollbackFailedOptional Finishing
+733 silly runTopLevelLifecycles Finishing
+734 silly install printInstalled
+735 warn aquascraper@1.0.0 No description
+736 verbose If you need help, you may report this error at:
+736 verbose     <https://github.com/npm/npm/issues>
+737 warn aquascraper@1.0.0 No repository field.
+738 verbose If you need help, you may report this error at:
+738 verbose     <https://github.com/npm/npm/issues>
+739 verbose stack Error: EPERM: operation not permitted, unlink 'H:\aquascraper\node_modules\casperjs'
+739 verbose stack     at Error (native)
+740 verbose cwd H:\aquascraper
+741 error Windows_NT 6.1.7601
+742 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "casperjs" "--save-dev"
+743 error node v6.10.3
+744 error npm  v3.10.10
+745 error path H:\aquascraper\node_modules\casperjs
+746 error code EPERM
+747 error errno -4048
+748 error syscall unlink
+749 error Error: EPERM: operation not permitted, unlink 'H:\aquascraper\node_modules\casperjs'
+749 error     at Error (native)
+749 error  { Error: EPERM: operation not permitted, unlink 'H:\aquascraper\node_modules\casperjs'
+749 error     at Error (native)
+749 error   errno: -4048,
+749 error   code: 'EPERM',
+749 error   syscall: 'unlink',
+749 error   path: 'H:\\aquascraper\\node_modules\\casperjs',
+749 error   parent: 'aquascraper' }
+750 error Please try running this command again as root/Administrator.
+751 verbose exit [ -4048, true ]
