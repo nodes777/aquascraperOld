@@ -15,8 +15,6 @@ var processPage = function(){
   this.thenClick("input[value='Submit']").then(function(){
       console.log("clicked closed items...")
 
-    
-
   }).waitForSelector(".bluebg").then(function(){
     // Same as getTitle, but uses evaluate and supposed to turn the text green but isnt...
     this.echo('Page title is: ' + this.evaluate(function() {
@@ -24,16 +22,22 @@ var processPage = function(){
     }), 'INFO');
 
 
-      var check = this.evaluate(function(){
-          var tds = document.querySelectorAll('table');
+      var allClosedTable = this.evaluate(function(){
+        // The fish table is the 4th table on the page
+          var table = document.querySelectorAll('table')[3];
+          var tableTextContent = table.textContent;
+          var tds = table.querySelectorAll("td");
+
           var y = Array.prototype.map.call(tds, function(t) { return t.textContent; });
+
           return y;
       })
 
-      var x = check;
-      fs.write(pathToFolder, x, 'w');
+      //var check = allClosedTable.querySelector("td font[size='2']").textContent;
+      this.echo('Getting table: ' + allClosedTable.length);
+      fs.write(pathToFolder, allClosedTable, 'w');
       
-      this.echo('Getting td: ' + check.length);
+
   }).then(terminate);
 };
 
@@ -47,6 +51,8 @@ casper.run();
 
 
 /*
+
+var y = Array.prototype.map.call(table, function(t) { return t.textContent; });
 JSON.stringify(check[0]))
       for (var index = 0; index < check.length; index++) {
     console.log(check[0][index]);
