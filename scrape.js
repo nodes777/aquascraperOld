@@ -1,5 +1,10 @@
 var fs = require("fs");
-var casper = require('casper').create();
+var casper = require('casper').create({
+    pageSettings: {
+        loadImages:  false,
+        loadPlugins: false
+    },
+});
 var url = "http://www.aquabid.com/cgi-bin/auction/closed.cgi";
 
 
@@ -26,13 +31,14 @@ var processPage = function(){
         // The fish table is the 4th table on the page
           var table = document.querySelectorAll('table')[3];
           var tableTextContent = table.textContent;
-          var tds = table.querySelectorAll("td");
+          var trs = table.querySelectorAll("tr");
 
-          var y = Array.prototype.map.call(tds, function(t) { return t.textContent; });
+          var y = Array.prototype.map.call(trs, function(t) { return t.innerHTML; });
 
           return y;
       })
 
+      //console.log(typeof allClosedTable);
       //var check = allClosedTable.querySelector("td font[size='2']").textContent;
       this.echo('Getting table: ' + allClosedTable.length);
       fs.write(pathToFolder, allClosedTable, 'w');
