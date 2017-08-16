@@ -1,0 +1,8 @@
+var exampleClosedAuctionItem = {
+		"Date":"",
+		"Item":"",
+		"Seller":"",
+		"High Bidder":"",
+		"Bid Price": "",
+		"Reserve Met?": ""
+	}
