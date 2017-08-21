@@ -41,6 +41,7 @@ casper.waitForSelector('select[name="category"]').then(function(){
           //console.log(tableData);
           var formattedJSON = tableToJSON.format(tableData);
           fs.write(pathToFolder+fish+outputFormat, JSON.stringify(tableData, null, 4), 'w')
+          fs.write(pathToFolder+fish+"JSON"+outputFormat, JSON.stringify(formattedJSON, null, 4), 'w')
           console.log("Data written: "+fish);
       })
   })

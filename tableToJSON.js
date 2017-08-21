@@ -5,8 +5,11 @@ var require = patchRequire(require);
 // now you're ready to go
 var utils = require('utils');
 
-exports.format = function(){
+exports.format = function(tableDataArray){
+	console.log("In format\n ~~~~~~~~~~~~~~~~~~~~~ \n");
    var entries = [];
+
+   format(tableDataArray);
 
 	function format(tableDataArray){ 
 		    // skip "Close\nItem\nSeller\nHigh Bidder\nBid Price\nReserve Met?\n",
