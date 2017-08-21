@@ -16,9 +16,6 @@ var url = "http://www.aquabid.com/cgi-bin/auction/closed.cgi";
 
 var outputFormat = ".js" // js, txt, html
 var pathToFolder = "./data/";
-var terminate = function(){
-  this.echo("Exiting...").exit();
-};
 
 
 casper.start(url);
@@ -41,15 +38,17 @@ casper.waitForSelector('select[name="category"]').then(function(){
           */
           var tableData = grabTable(this);
           utils.dump(tableData);
-          console.log(tableData);
+          //console.log(tableData);
           var formattedJSON = tableToJSON.format(tableData);
-          fs.write(pathToFolder+fish+outputFormat, tableData, 'w')
+          fs.write(pathToFolder+fish+outputFormat, JSON.stringify(tableData, null, 4), 'w')
           console.log("Data written: "+fish);
       })
   })
 })
+
 casper.run(terminate);
 
+/* Function Definitions*/
 function grabTable(page){
         var allClosedTable = page.evaluate(function(){
         // The fish table is the 4th table on the page
@@ -62,3 +61,7 @@ function grabTable(page){
       })
       return allClosedTable;
 }
+
+function terminate (){
+  this.echo("Exiting...").exit();
+};

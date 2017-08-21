@@ -1,1434 +1,231 @@
-Close
-Item
-Seller
-High Bidder
-Bid Price
-Reserve Met?
-,7/18
-V RAY !! ++ Drak Blue CT Male ++
-Bettaakapes
-None
----
-No Bids
-,7/18
-Nice !! ++ PURPLE RED CT Male ++
-Bettaakapes
-None
----
-No Bids
-,7/18
-V Ray !! ++ Super Blue CT Male ++
-Bettaakapes
-None
----
-No Bids
-,7/18
-Dark Blue Mastard CT Male
-Bettaakapes
-None
----
-No Bids
-,7/18
-Mettalic RED CT Male
-Bettaakapes
-None
----
-No Bids
-,7/18
-***Red-Glass-6137***CT-Male***
-Choti_betta
-Ahicpa8543
-$25.00
-Yes
-,7/18
-Mustard CT Female
-Phusit
-None
----
-No Bids
-,7/18
-Marble Mustard CT Female
-Phusit
-None
----
-No Bids
-,7/19
-CT Fancy Female #5
-Vibetta
-Guppylover4ever
-$15.00
-Yes
-,7/19
-CT Fancy Female #8
-Vibetta
-Guppylover4ever
-$15.00
-Yes
-,7/19
-CT Red Dragon male
-Vibetta
-None
----
-No Bids
-,7/19
-CT Copper Female
-Vibetta
-None
----
-No Bids
-,7/19
-Green Mustard CT Female
-Phusit
-None
----
-No Bids
-,7/19
-Black copper FM B516
-Micky99
-None
----
-No Bids
-,7/19
-Thai Flag FM B517
-Micky99
-Guppylover4ever
-$17.00
-Yes
-,7/19
-Thai Flag A008
-Micky99
-None
----
-No Bids
-,7/19
-King Crowntail A009
-Micky99
-Ahicpa8543
-$20.00
-Yes
-,7/20
-CT Copper orange Male
-Atiwatbetta
-None
----
-No Bids
-,7/20
-+++mustard-CT-Male+++
-Gamebetta
-Bestbettabro
-$25.00
-Yes
-,7/20
-Copper RED BF CT Male
-Senaiaqu
-None
----
-No Bids
-,7/20
-CT Fancy Female #2
-Vibetta
-Bettasol
-$15.00
-Yes
-,7/20
-CT Fancy Male
-Vibetta
-None
----
-No Bids
-,7/20
-Ki !! ++ Blue Mixed CT Male ++
-Bettaakapes
-None
----
-No Bids
-,7/20
-Nice !! ++ RED PURPLE CT Male +++
-Bettaakapes
-None
----
-No Bids
-,7/20
-+++ Blue CT Male +++
-Bettaakapes
-None
----
-No Bids
-,7/20
-++ FC !! ++ Drak Blue Yellow Fins CT Male ++
-Bettaakapes
-None
----
-No Bids
-,7/20
-++ Super RED CT Male +++
-Bettaakapes
-None
----
-No Bids
-,7/21
-***Platinum***CT-Male***
-Choti_betta
-Haiijoshyy
-$25.00
-Yes
-,7/21
-CT211 (Male) - Bat Man Return by Thanont
-Thanont
-Haiijoshyy
-$20.00
-Yes
-,7/21
-***Glass-Red***CT-Male***
-Choti_betta
-Ahicpa8543
-$30.00
-Yes
-,7/21
-***Red-Fireworks***CT-Male***
-Choti_betta
-Kp33
-$30.00
-Yes
-,7/21
-CT191 (Male) - Mystique by Thanont
-Thanont
-None
----
-No Bids
-,7/21
-***Beautiful-Body***CT-Male***
-Choti_betta
-Kp33
-$35.00
-Yes
-,7/21
-CT KING ORANGE
-Ake_betta
-None
----
-No Bids
-,7/21
-!!!PINK_RED!!!CT-Male!!!
-Sven_betta
-None
----
-No Bids
-,7/21
-!!!ORANGE_WHITE!!!CT-Male!!!
-Sven_betta
-None
----
-No Bids
-,7/21
-!!!FANCY!!!HM-Male!!!
-Sven_betta
-None
----
-No Bids
-,7/21
-++++++ Black Copper CT Female #170520
-Leebunbetta
-None
----
-No Bids
-,7/21
-++++++ Blue Steel CT Female #170524
-Leebunbetta
-None
----
-No Bids
-,7/21
-++++++ Red Marble CT Female #170525
-Leebunbetta
-None
----
-No Bids
-,7/22
-Fantastic!! CT Fancy Metallic corn Male.
-Petchbangsai
-None
----
-No Bids
-,7/22
-Fancy Mustard CT FEmale##phusit
-Phusit
-None
----
-No Bids
-,7/22
-CROWNTAIL BLACK COPPER
-Bettaciledug
-None
----
-No Bids
-,7/22
-hippo- RED TIGER FIRE !! MALE !!
-Hippo1800
-None
----
-No Bids
-,7/23
-CT. PINK PASTEL
-Kwansirifarm01
-None
----
-No Bids
-,7/23
-CT. RED 2 RAYS
-Kwansirifarm01
-None
----
-No Bids
-,7/23
-***Fancy***CT-Male***
-Choti_betta
-None
----
-No Bids
-,7/23
-***Orange***CT-Male***
-Choti_betta
-None
----
-No Bids
-,7/23
-Amazing Male #Marble CT#
-Ciledugbettalines
-None
----
-No Bids
-,7/23
-Perfect Female #Sexy Red#
-Ciledugbettalines
-None
----
-No Bids
-,7/23
-Fancy.
-Khunton1
-None
----
-No Bids
-,7/23
-Red burn.
-Khunton1
-None
----
-No Bids
-,7/23
-King red blue.
-Khunton1
-None
----
-No Bids
-,7/24
-Gamigaze
-Momobetta
-None
----
-No Bids
-,7/24
-CT Fancy Male #Orange
-Vibetta
-None
----
-No Bids
-,7/24
-CT Fancy Male #Blue
-Vibetta
-None
----
-No Bids
-,7/24
-CT Fancy Female
-Vibetta
-None
----
-No Bids
-,7/24
-CT Fancy Female #3
-Vibetta
-None
----
-No Bids
-,7/24
-CT Fancy Female #4
-Vibetta
-None
----
-No Bids
-,7/24
-CT Fancy Female #06
-Vibetta
-None
----
-No Bids
-,7/24
-CT Fancy Female #7
-Vibetta
-None
----
-No Bids
-,7/24
-CT Female #10
-Vibetta
-None
----
-No Bids
-,7/24
-CT201 (Male) - Orange Ring by Thanont
-Thanont
-None
----
-No Bids
-,7/24
-CT188 (Male) - The Christmas by Thanont
-Thanont
-None
----
-No Bids
-,7/25
--CT-Devilmale
-Onebetta99
-None
----
-No Bids
-,7/25
-CT King Green orange Male
-Atiwatbetta
-None
----
-No Bids
-,7/25
-CT Green Mustard Female
-Atiwatbetta
-None
----
-No Bids
-,7/25
-R E D - C H I L I
-Antongradiyanto
-None
----
-No Bids
-,7/25
-F M - B L A C K - L A C E
-Antongradiyanto
-None
----
-No Bids
-,7/25
-F M - B L A C K - O R C H I D
-Antongradiyanto
-None
----
-No Bids
-,7/25
-F M - R E D - C H I L I
-Antongradiyanto
-None
----
-No Bids
-,7/25
-F M - R E D - C H I L I#2
-Antongradiyanto
-None
----
-No Bids
-,7/25
-FM - R E D - C H I L I #3
-Antongradiyanto
-None
----
-No Bids
-,7/26
-Royal Blue CT male
-Petchbangsai
-None
----
-No Bids
-,7/26
-++++++Gold Dragon CT Female #170538
-Leebunbetta
-Tsylvia
-$20.00
-Yes
-,7/26
-DDR Super Orange CT Male##phusit
-Phusit
-None
----
-No Bids
-,7/26
-Green Orchid CT FEmale##phusit
-Phusit
-None
----
-No Bids
-,7/26
-Green Orchid CT Female##phusit
-Phusit
-None
----
-No Bids
-,7/26
-DDR Green Orchid CT Female##phusit##
-Phusit
-None
----
-No Bids
-,7/26
-hippo- CTPK MULTICOLOR KOI !! New Jeneration !!
-Hippo1800
-None
----
-No Bids
-,7/26
-hippo- CTPK YELLOW KOI DOT !! MALE !!
-Hippo1800
-None
----
-No Bids
-,7/26
-hippo- CT KOI !! MALE !!
-Hippo1800
-None
----
-No Bids
-,7/26
-hippo- CT KOI !! MALE !! 02
-Hippo1800
-None
----
-No Bids
-,7/26
-hippo- CT MULTICOLOR KOI !! New Jeneration !!
-Hippo1800
-None
----
-No Bids
-,7/26
-hippo- CTPK RED KOI !! FEMALE !!
-Hippo1800
-None
----
-No Bids
-,7/26
-hippo- CT KOI !! FEMALE !!
-Hippo1800
-None
----
-No Bids
-,7/26
-hippo- CT YELLOW KOI !! FEMALE !!
-Hippo1800
-None
----
-No Bids
-,7/27
-Metallic corn CT male
-Petchbangsai
-None
----
-No Bids
-,7/27
-CT Fancy male
-Petchbangsai
-None
----
-No Bids
-,7/27
-Red-Blue CT male.
-Petchbangsai
-None
----
-No Bids
-,7/27
-Marble Orange CT Male##phusit
-Phusit
-None
----
-No Bids
-,7/28
-++++++ Red Dragon CT Female #170539
-Leebunbetta
-None
----
-No Bids
-,7/28
-***Yellow-Gold***CT-Male***
-Choti_betta
-Josh0211
-$30.00
-Yes
-,7/28
-CROWNTAIL BLACK COPPER
-Bettaciledug
-None
----
-No Bids
-,7/28
--King's soldier-HM-Male-
-Showroombetta99
-Jaytm
-$25.00
-Yes
-,7/28
-BLUE CROWNTAIL FEMALE *GOOD QUALITY
-Relafabetta
-None
----
-No Bids
-,7/29
-BLACK ORCHID CROWNTAIL FEMALE
-Relafabetta
-None
----
-No Bids
-,7/29
-Orange DRagn CT FEmale#NICE
-Phusit
-None
----
-No Bids
-,7/30
-+++Blue black dragon-CT-male+++
-Gamebetta
-Echill1
-$30.00
-Yes
-,7/30
-R E D - C H I L I - F M #2
-Antongradiyanto
-None
----
-No Bids
-,7/30
-R E D - C H I L I - F M #3
-Antongradiyanto
-None
----
-No Bids
-,7/30
-B L A C K - O R C H I D - F M
-Antongradiyanto
-None
----
-No Bids
-,7/30
-V + Drak Blue CT Male ++
-Senaiaqu
-None
----
-No Bids
-,7/30
-PURPLE RED CT Male
-Senaiaqu
-None
----
-No Bids
-,7/30
-Solid Blue CT Male
-Senaiaqu
-None
----
-No Bids
-,7/30
-Blue Yellow CT Male
-Senaiaqu
-None
----
-No Bids
-,7/30
-RED BOY CT Msle
-Senaiaqu
-None
----
-No Bids
-,7/31
-+++Red glass-CT-Male+++
-Gamebetta
-Ahicpa8543
-$35.00
-Yes
-,7/31
-CT. BLACK COPPER
-Kwansirifarm01
-Andym
-$20.00
-Yes
-,7/31
-++++ GOLD GOLD GOLD +++++
-Eggmoon
-Appletree26
-$20.00
-Yes
-,7/31
-CT208 (Male) - Price of Sweden #1 by Thanont
-Thanont
-None
----
-No Bids
-,7/31
-CT226 (Male) - Dragon Ball by Thanont
-Thanont
-None
----
-No Bids
-,7/31
-***Platinum-Copper-Red***CT-Male***
-Choti_betta
-None
----
-No Bids
-,7/31
-CT219 (Male) - Pumkin Crown by Thanont
-Thanont
-Dantedragonbane
-$30.00
-Yes
-,7/31
-Stunning black crowntail male
-90125
-None
----
-No Bids
-,7/31
-Unique male crowntail male
-90125
-None
----
-No Bids
-,7/31
-Salmon crowntail male
-90125
-None
----
-No Bids
-,7/31
-Stunning male crowntail
-90125
-None
----
-No Bids
-,7/31
-Nice purple crowntail male
-90125
-None
----
-No Bids
-,7/31
-Unique male crowntail male
-90125
-None
----
-No Bids
-,8/1
-Black Hart Ocean Crown tail (male) Betta
-Surabetta
-None
----
-No Bids
-,8/1
-Red Half GrayCopper Monste Crown tail (male) Betta
-Surabetta
-None
----
-No Bids
-,8/1
-Red Apache Crown tail (male) Betta
-Surabetta
-None
----
-No Bids
-,8/1
-Crown tail white&red
-Jbbetta
-None
----
-No Bids
-,8/1
-Crown tail
-Jbbetta
-None
----
-No Bids
-,8/1
-Fancy Dragon CT Female##phusit
-Phusit
-None
----
-No Bids
-,8/1
-Lavender Red CT FEmale##phusit
-Phusit
-None
----
-No Bids
-,8/1
-Fancy CT Female##phusit
-Phusit
-None
----
-No Bids
-,8/1
-CT THE COPPER 2
-Ake_betta
-Mogster
-$30.00
-Yes
-,8/1
-!!! IRON THRONE (2701) !!!
-3636bettaberry
-Sdmai2009
-$25.00
-Yes
-,8/2
-Copper RED CT Male
-Senaiaqu
-None
----
-No Bids
-,8/2
-Crowntail fancy blue
-Grimiss
-None
----
-No Bids
-,8/2
-Crowntail AOC or bicolor
-Grimiss
-None
----
-No Bids
-,8/3
-Mustard GAS CT Female
-Phusit
-None
----
-No Bids
-,8/3
-Mustard GAS CT Female
-Phusit
-None
----
-No Bids
-,8/3
-WHITE ALBINO CROWNTAIL MALE ***** FOR COLLECTION
-Relafabetta
-Fish_luver
-$25.00
-Yes
-,8/3
-CT Copper monster
-Nicebettasthailand
-None
----
-No Bids
-,8/3
-CT The Phoenix
-Nicebettasthailand
-None
----
-No Bids
-,8/4
-FM - R E D - C H I L I #1
-Antongradiyanto
-None
----
-No Bids
-,8/4
-FM - R E D - C H I L I #2
-Antongradiyanto
-None
----
-No Bids
-,8/4
-FM - R E D - C H I L I #3
-Antongradiyanto
-None
----
-No Bids
-,8/4
-FM - B L A C K - O R C H I D
-Antongradiyanto
-None
----
-No Bids
-,8/4
-CT The Phoenix
-Nicebettasthailand
-None
----
-No Bids
-,8/4
-CT Copper monster
-Nicebettasthailand
-None
----
-No Bids
-,8/4
-CT222 (Male) - Reflective Crown by Thanont
-Thanont
-Jamielee
-$30.00
-Yes
-,8/5
-***Pink-Gold***CT-Male***
-Choti_betta
-None
----
-No Bids
-,8/5
-BLUE CT # 545 # MALE #SIZE M
-Bangrakambetta_farm
-None
----
-No Bids
-,8/5
-CT SUPER BLUE MALE
-Pusukanya
-None
----
-No Bids
-,8/5
-CT Copper monster
-Nicebettasthailand
-None
----
-No Bids
-,8/5
-CT The Phoenix
-Nicebettasthailand
-None
----
-No Bids
-,8/5
-CT SUPER BLUE MALE
-Pusukanya
-None
----
-No Bids
-,8/5
-CT GREEN &BLUE MALE
-Pusukanya
-None
----
-No Bids
-,8/5
-CT SUPER RED MALE
-Pusukanya
-None
----
-No Bids
-,8/6
-KING CROWNTAIL DARK 002
-Tengchoi
-None
----
-No Bids
-,8/6
-CT. BLACK COPPER BUTTERFLY XL.
-Kwansirifarm01
-None
----
-No Bids
-,8/6
-CT. BLUE RED XL.
-Kwansirifarm01
-None
----
-No Bids
-,8/6
-CT. MYSTARD TRI-COLOR
-Kwansirifarm01
-None
----
-No Bids
-,8/6
-CT. GREEN RED DRAGON
-Kwansirifarm01
-None
----
-No Bids
-,8/7
-CT. LAVENDER BUTTERFLY
-Kwansirifarm01
-Stephaniefff
-$25.00
-Yes
-,8/7
-CT. FANCY SNOWMAN
-Kwansirifarm01
-Stephaniefff
-$21.00
-Yes
-,8/7
-CT232 (Male) - Blue & Yellow Crown by Thanont
-Thanont
-Greensandblues
-$20.00
-Yes
-,8/7
-F M - S U P E R - W H I T E
-Antongradiyanto
-None
----
-No Bids
-,8/7
-Marble Orange CT Male##phusit
-Phusit
-None
----
-No Bids
-,8/7
-Green Orchid CT Female##phusit
-Phusit
-None
----
-No Bids
-,8/7
-DDR Green Orchid CT Female##phusit##
-Phusit
-None
----
-No Bids
-,8/8
-CT Fancy Female #2
-Vibetta
-None
----
-No Bids
-,8/8
-CT Fancy Female #1
-Vibetta
-None
----
-No Bids
-,8/8
-CT Fancy Male #Orange
-Vibetta
-None
----
-No Bids
-,8/8
-CT Red Dragon male
-Vibetta
-None
----
-No Bids
-,8/8
-CT Fancy Female #3
-Vibetta
-None
----
-No Bids
-,8/8
-CT Fancy Female #4
-Vibetta
-None
----
-No Bids
-,8/8
-CT. MILK TEA XL.
-Kwansirifarm01
-None
----
-No Bids
-,8/8
-CT. BLUE YELLOW MUSTARD
-Kwansirifarm01
-None
----
-No Bids
-,8/8
-CT. ORANGE BUTTERFLY
-Kwansirifarm01
-None
----
-No Bids
-,8/8
-DDR Mustard GAS CT Male
-Phusit
-None
----
-No Bids
-,8/8
-CT ORANGE BLUE FANCY
-Ake_betta
-None
----
-No Bids
-,8/8
-CT THE RED
-Ake_betta
-None
----
-No Bids
-,8/8
-CT ORANGE DRAGON
-Ake_betta
-None
----
-No Bids
-,8/8
-Unique male crowntail male
-90125
-None
----
-No Bids
-,8/8
-Salmon crowntail male
-90125
-None
----
-No Bids
-,8/8
-Stunning male crowntail
-90125
-None
----
-No Bids
-,8/8
-Unique male crowntail male
-90125
-None
----
-No Bids
-,8/9
-+++Black copper-CT-male++++
-Gamebetta
-None
----
-No Bids
-,8/9
-+++Red pink-CT-Mlae+++
-Gamebetta
-None
----
-No Bids
-,8/9
-F M - B L A C K - O R C H I R D
-Antongradiyanto
-None
----
-No Bids
-,8/9
-R E D - C H I L I
-Antongradiyanto
-None
----
-No Bids
-,8/9
-CT235 (Female) - Cleopatra by Thanont
-Thanont
-Detautafni
-$15.00
-Yes
-,8/9
-F M - B L A C K L A C E
-Antongradiyanto
-None
----
-No Bids
-,8/9
-F M - B L A C K - R E D - P A T T E R N
-Antongradiyanto
-None
----
-No Bids
-,8/9
-FM - B L A C K - O R C H I D#2
-Antongradiyanto
-None
----
-No Bids
-,8/9
-CT #1080 '' BLACK COPPER '' MALE
-Thaphrabettas
-None
----
-No Bids
-,8/9
-CT #1081 '' BLACK GOLD '' MALE
-Thaphrabettas
-None
----
-No Bids
-,8/9
-CT RED (MALE)
-Pusukanya1604
-None
----
-No Bids
-,8/10
-0004 Rusting of iron crown (Male)
-Porbetta
-None
----
-No Bids
-,8/11
-hippo- CT KOI MALE !! NICE !!
-Hippo1800
-Mfinch74
-$71.00
-Yes
-,8/11
-Mustard GAS CT Female
-Phusit
-None
----
-No Bids
-,8/11
-Green Black CT Female##phusit
-Phusit
-None
----
-No Bids
-,8/11
-Blue CT FEmale##1
-Phusit
-None
----
-No Bids
-,8/11
-!!! SUPER RED CROWN (2700) !!!
-3636bettaberry
-None
----
-No Bids
-,8/11
-Blue Marble RED CT Male
-Bettaakapes
-None
----
-No Bids
-,8/11
-RED Mixed CT Male
-Bettaakapes
-None
----
-No Bids
-,8/11
-Blue CT Male
-Bettaakapes
-None
----
-No Bids
-,8/11
-FC Blue Yellow Fins CT Male
-Bettaakapes
-None
----
-No Bids
-,8/11
-RED CT Male
-Bettaakapes
-None
----
-No Bids
-,8/12
-CT239 (Female) - Pink Panther by Thanont
-Thanont
-Guytoptekk
-$15.00
-Yes
-,8/12
-+++Blue orange-CT-Male+++
-Gamebetta
-None
----
-No Bids
-,8/12
-CROWNTAIL BLACK COPPER
-Bettaciledug
-None
----
-No Bids
-,8/12
-FEMALE BLUE CROWNTAIL
-Bettaciledug
-None
----
-No Bids
-,8/12
-CT ORANGE GLASS SO CUTE
-Ake_betta
-None
----
-No Bids
-,8/13
-CT226 (Male) - Dragon Ball by Thanont
-Thanont
-3d
-$30.00
-Yes
-,8/13
-CT The Phoenix
-Nicebettasthailand
-Moroger
-$30.00
-Yes
-,8/13
-CT. SUPER GOLD
-Kwansirifarm01
-None
----
-No Bids
-,8/13
-CT. SUPER YELLOW
-Kwansirifarm01
-None
----
-No Bids
-,8/13
-CT. SUPER ORANGE
-Kwansirifarm01
-None
----
-No Bids
-,8/13
-CT. ROYAL BLUE
-Kwansirifarm01
-None
----
-No Bids
-,8/13
-hippo- CTPK ORANGE YELLOW KOI !! He 3rd runner-up
-Hippo1800
-None
----
-No Bids
-,8/13
-++++++ Red Dragon CT Male #170611
-Leebunbetta
-Waterlily04
-$20.00
-Yes
-,8/13
-Fancy Mustard CT FEmale##phusit
-Phusit
-None
----
-No Bids
-,8/14
-Cop RED CT Male
-Senaiaqu
-None
----
-No Bids
-,8/14
-++++++ Grizzle CT Female #170575
-Leebunbetta
-None
----
-No Bids
-,8/14
-++++++ Fancy CT Female #170573
-Leebunbetta
-None
----
-No Bids
-,8/14
-++++++ Thai Flag CT Male #170579
-Leebunbetta
-None
----
-No Bids
-,8/14
-++++++Spider Man CT Male #170580
-Leebunbetta
-None
----
-No Bids
-,8/14
-++++++ Blue White CT Male #170585
-Leebunbetta
-None
----
-No Bids
-,8/14
-CT KING ORANGE
-Ake_betta
-Danielfortesque
-$32.00
-Yes
-,8/14
-ATP Farm - CT FEMALE White Platinum (573)
-88atp_betta
-None
----
-No Bids
-,8/14
-ATP Farm - CT Male White Platinum (574)
-88atp_betta
-None
----
-No Bids
-,8/14
-Fancy Mustard CT FEmale##phusit
-Phusit
-None
----
-No Bids
-,8/14
-1.Ct Blue Male
-Pusukanya1604
-None
----
-No Bids
-,8/14
-2.Ct Blue&green Male
-Pusukanya1604
-None
----
-No Bids
-,8/14
-2.Ct Red Male
-Pusukanya1604
-None
----
-No Bids
-,8/14
-3.Ct Blue Male
-Pusukanya1604
-None
----
-No Bids
-,8/15
-CT Orange Female #Fancy
-Vibetta
-None
----
-No Bids
-,8/15
-THE CANDY BLACK FACE / ULTRA RARE!
-Tengchoi
-None
----
-No Bids
-,8/15
-ATP Farm - CT FEMALE Black (571)
-88atp_betta
-None
----
-No Bids
-,8/15
-KOI CT MALE
-Tengchoi
-Fish_luver
-$60.00
-Yes
-,8/16
-Don't Miss !! ++ White CT Female ++ For Breeder !!
-Bettaakapes
-None
----
-No Bids
-,8/16
-Don't Miss !! ++ White Platinum CT Female +
-Bettaakapes
-None
----
-No Bids
+[
+    "Close\nItem\nSeller\nHigh Bidder\nBid Price\nReserve Met?\n",
+    "7/23\nCT. PINK PASTEL\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "7/23\nCT. RED 2 RAYS\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "7/23\n***Fancy***CT-Male***\nChoti_betta\nNone\n---\nNo Bids\n",
+    "7/23\n***Orange***CT-Male***\nChoti_betta\nNone\n---\nNo Bids\n",
+    "7/23\nAmazing Male #Marble CT#\nCiledugbettalines\nNone\n---\nNo Bids\n",
+    "7/23\nPerfect Female #Sexy Red#\nCiledugbettalines\nNone\n---\nNo Bids\n",
+    "7/23\nFancy.\nKhunton1\nNone\n---\nNo Bids\n",
+    "7/23\nRed burn.\nKhunton1\nNone\n---\nNo Bids\n",
+    "7/23\nKing red blue.\nKhunton1\nNone\n---\nNo Bids\n",
+    "7/24\nGamigaze\nMomobetta\nNone\n---\nNo Bids\n",
+    "7/24\nCT Fancy Male #Orange\nVibetta\nNone\n---\nNo Bids\n",
+    "7/24\nCT Fancy Male #Blue\nVibetta\nNone\n---\nNo Bids\n",
+    "7/24\nCT Fancy Female\nVibetta\nNone\n---\nNo Bids\n",
+    "7/24\nCT Fancy Female #3\nVibetta\nNone\n---\nNo Bids\n",
+    "7/24\nCT Fancy Female #4\nVibetta\nNone\n---\nNo Bids\n",
+    "7/24\nCT Fancy Female #06\nVibetta\nNone\n---\nNo Bids\n",
+    "7/24\nCT Fancy Female #7\nVibetta\nNone\n---\nNo Bids\n",
+    "7/24\nCT Female #10\nVibetta\nNone\n---\nNo Bids\n",
+    "7/24\nCT201 (Male) - Orange Ring by Thanont\nThanont\nNone\n---\nNo Bids\n",
+    "7/24\nCT188 (Male) - The Christmas by Thanont\nThanont\nNone\n---\nNo Bids\n",
+    "7/25\n-CT-Devilmale\nOnebetta99\nNone\n---\nNo Bids\n",
+    "7/25\nCT King Green orange Male\nAtiwatbetta\nNone\n---\nNo Bids\n",
+    "7/25\nCT Green Mustard Female\nAtiwatbetta\nNone\n---\nNo Bids\n",
+    "7/25\nR E D - C H I L I\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "7/25\nF M - B L A C K - L A C E\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "7/25\nF M - B L A C K - O R C H I D\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "7/25\nF M - R E D - C H I L I\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "7/25\nF M - R E D - C H I L I#2\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "7/25\nFM - R E D - C H I L I #3\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "7/26\nRoyal Blue CT male\nPetchbangsai\nNone\n---\nNo Bids\n",
+    "7/26\n++++++Gold Dragon CT Female #170538\nLeebunbetta\nTsylvia\n$20.00\nYes\n",
+    "7/26\nDDR Super Orange CT Male##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "7/26\nGreen Orchid CT FEmale##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "7/26\nGreen Orchid CT Female##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "7/26\nDDR Green Orchid CT Female##phusit##\nPhusit\nNone\n---\nNo Bids\n",
+    "7/26\nhippo- CTPK MULTICOLOR KOI !! New Jeneration !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "7/26\nhippo- CTPK YELLOW KOI DOT !! MALE !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "7/26\nhippo- CT KOI !! MALE !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "7/26\nhippo- CT KOI !! MALE !! 02\nHippo1800\nNone\n---\nNo Bids\n",
+    "7/26\nhippo- CT MULTICOLOR KOI !! New Jeneration !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "7/26\nhippo- CTPK RED KOI !! FEMALE !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "7/26\nhippo- CT KOI !! FEMALE !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "7/26\nhippo- CT YELLOW KOI !! FEMALE !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "7/27\nMetallic corn CT male\nPetchbangsai\nNone\n---\nNo Bids\n",
+    "7/27\nCT Fancy male\nPetchbangsai\nNone\n---\nNo Bids\n",
+    "7/27\nRed-Blue CT male.\nPetchbangsai\nNone\n---\nNo Bids\n",
+    "7/27\nMarble Orange CT Male##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "7/28\n++++++ Red Dragon CT Female #170539\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "7/28\n***Yellow-Gold***CT-Male***\nChoti_betta\nJosh0211\n$30.00\nYes\n",
+    "7/28\nCROWNTAIL BLACK COPPER\nBettaciledug\nNone\n---\nNo Bids\n",
+    "7/28\n-King's soldier-HM-Male-\nShowroombetta99\nJaytm\n$25.00\nYes\n",
+    "7/28\nBLUE CROWNTAIL FEMALE *GOOD QUALITY\nRelafabetta\nNone\n---\nNo Bids\n",
+    "7/29\nBLACK ORCHID CROWNTAIL FEMALE\nRelafabetta\nNone\n---\nNo Bids\n",
+    "7/29\nOrange DRagn CT FEmale#NICE\nPhusit\nNone\n---\nNo Bids\n",
+    "7/30\n+++Blue black dragon-CT-male+++\nGamebetta\nEchill1\n$30.00\nYes\n",
+    "7/30\nR E D - C H I L I - F M #2\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "7/30\nR E D - C H I L I - F M #3\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "7/30\nB L A C K - O R C H I D - F M\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "7/30\nV + Drak Blue CT Male ++\nSenaiaqu\nNone\n---\nNo Bids\n",
+    "7/30\nPURPLE RED CT Male\nSenaiaqu\nNone\n---\nNo Bids\n",
+    "7/30\nSolid Blue CT Male\nSenaiaqu\nNone\n---\nNo Bids\n",
+    "7/30\nBlue Yellow CT Male\nSenaiaqu\nNone\n---\nNo Bids\n",
+    "7/30\nRED BOY CT Msle\nSenaiaqu\nNone\n---\nNo Bids\n",
+    "7/31\n+++Red glass-CT-Male+++\nGamebetta\nAhicpa8543\n$35.00\nYes\n",
+    "7/31\nCT. BLACK COPPER\nKwansirifarm01\nAndym\n$20.00\nYes\n",
+    "7/31\n++++ GOLD GOLD GOLD +++++\nEggmoon\nAppletree26\n$20.00\nYes\n",
+    "7/31\nCT208 (Male) - Price of Sweden #1 by Thanont\nThanont\nNone\n---\nNo Bids\n",
+    "7/31\nCT226 (Male) - Dragon Ball by Thanont\nThanont\nNone\n---\nNo Bids\n",
+    "7/31\n***Platinum-Copper-Red***CT-Male***\nChoti_betta\nNone\n---\nNo Bids\n",
+    "7/31\nCT219 (Male) - Pumkin Crown by Thanont\nThanont\nDantedragonbane\n$30.00\nYes\n",
+    "7/31\nStunning black crowntail male\n90125\nNone\n---\nNo Bids\n",
+    "7/31\nUnique male crowntail male\n90125\nNone\n---\nNo Bids\n",
+    "7/31\nSalmon crowntail male\n90125\nNone\n---\nNo Bids\n",
+    "7/31\nStunning male crowntail\n90125\nNone\n---\nNo Bids\n",
+    "7/31\nNice purple crowntail male\n90125\nNone\n---\nNo Bids\n",
+    "7/31\nUnique male crowntail male\n90125\nNone\n---\nNo Bids\n",
+    "8/1\nBlack Hart Ocean Crown tail (male) Betta\nSurabetta\nNone\n---\nNo Bids\n",
+    "8/1\nRed Half GrayCopper Monste Crown tail (male) Betta\nSurabetta\nNone\n---\nNo Bids\n",
+    "8/1\nRed Apache Crown tail (male) Betta\nSurabetta\nNone\n---\nNo Bids\n",
+    "8/1\nCrown tail white&red\nJbbetta\nNone\n---\nNo Bids\n",
+    "8/1\nCrown tail\nJbbetta\nNone\n---\nNo Bids\n",
+    "8/1\nFancy Dragon CT Female##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "8/1\nLavender Red CT FEmale##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "8/1\nFancy CT Female##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "8/1\nCT THE COPPER 2\nAke_betta\nMogster\n$30.00\nYes\n",
+    "8/1\n!!! IRON THRONE (2701) !!!\n3636bettaberry\nSdmai2009\n$25.00\nYes\n",
+    "8/2\nCopper RED CT Male\nSenaiaqu\nNone\n---\nNo Bids\n",
+    "8/2\nCrowntail fancy blue\nGrimiss\nNone\n---\nNo Bids\n",
+    "8/2\nCrowntail AOC or bicolor\nGrimiss\nNone\n---\nNo Bids\n",
+    "8/3\nMustard GAS CT Female\nPhusit\nNone\n---\nNo Bids\n",
+    "8/3\nMustard GAS CT Female\nPhusit\nNone\n---\nNo Bids\n",
+    "8/3\nWHITE ALBINO CROWNTAIL MALE ***** FOR COLLECTION\nRelafabetta\nFish_luver\n$25.00\nYes\n",
+    "8/3\nCT Copper monster\nNicebettasthailand\nNone\n---\nNo Bids\n",
+    "8/3\nCT The Phoenix\nNicebettasthailand\nNone\n---\nNo Bids\n",
+    "8/4\nFM - R E D - C H I L I #1\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/4\nFM - R E D - C H I L I #2\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/4\nFM - R E D - C H I L I #3\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/4\nFM - B L A C K - O R C H I D\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/4\nCT The Phoenix\nNicebettasthailand\nNone\n---\nNo Bids\n",
+    "8/4\nCT Copper monster\nNicebettasthailand\nNone\n---\nNo Bids\n",
+    "8/4\nCT222 (Male) - Reflective Crown by Thanont\nThanont\nJamielee\n$30.00\nYes\n",
+    "8/5\n***Pink-Gold***CT-Male***\nChoti_betta\nNone\n---\nNo Bids\n",
+    "8/5\nBLUE CT # 545 # MALE #SIZE M\nBangrakambetta_farm\nNone\n---\nNo Bids\n",
+    "8/5\nCT SUPER BLUE MALE\nPusukanya\nNone\n---\nNo Bids\n",
+    "8/5\nCT Copper monster\nNicebettasthailand\nNone\n---\nNo Bids\n",
+    "8/5\nCT The Phoenix\nNicebettasthailand\nNone\n---\nNo Bids\n",
+    "8/5\nCT SUPER BLUE MALE\nPusukanya\nNone\n---\nNo Bids\n",
+    "8/5\nCT GREEN &BLUE MALE\nPusukanya\nNone\n---\nNo Bids\n",
+    "8/5\nCT SUPER RED MALE\nPusukanya\nNone\n---\nNo Bids\n",
+    "8/6\nKING CROWNTAIL DARK 002\nTengchoi\nNone\n---\nNo Bids\n",
+    "8/6\nCT. BLACK COPPER BUTTERFLY XL.\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/6\nCT. BLUE RED XL.\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/6\nCT. MYSTARD TRI-COLOR\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/6\nCT. GREEN RED DRAGON\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/7\nCT. LAVENDER BUTTERFLY\nKwansirifarm01\nStephaniefff\n$25.00\nYes\n",
+    "8/7\nCT. FANCY SNOWMAN\nKwansirifarm01\nStephaniefff\n$21.00\nYes\n",
+    "8/7\nCT232 (Male) - Blue & Yellow Crown by Thanont\nThanont\nGreensandblues\n$20.00\nYes\n",
+    "8/7\nF M - S U P E R - W H I T E\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/7\nMarble Orange CT Male##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "8/7\nGreen Orchid CT Female##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "8/7\nDDR Green Orchid CT Female##phusit##\nPhusit\nNone\n---\nNo Bids\n",
+    "8/8\nCT Fancy Female #2\nVibetta\nNone\n---\nNo Bids\n",
+    "8/8\nCT Fancy Female #1\nVibetta\nNone\n---\nNo Bids\n",
+    "8/8\nCT Fancy Male #Orange\nVibetta\nNone\n---\nNo Bids\n",
+    "8/8\nCT Red Dragon male\nVibetta\nNone\n---\nNo Bids\n",
+    "8/8\nCT Fancy Female #3\nVibetta\nNone\n---\nNo Bids\n",
+    "8/8\nCT Fancy Female #4\nVibetta\nNone\n---\nNo Bids\n",
+    "8/8\nCT. MILK TEA XL.\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/8\nCT. BLUE YELLOW MUSTARD\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/8\nCT. ORANGE BUTTERFLY\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/8\nDDR Mustard GAS CT Male\nPhusit\nNone\n---\nNo Bids\n",
+    "8/8\nCT ORANGE BLUE FANCY\nAke_betta\nNone\n---\nNo Bids\n",
+    "8/8\nCT THE RED\nAke_betta\nNone\n---\nNo Bids\n",
+    "8/8\nCT ORANGE DRAGON\nAke_betta\nNone\n---\nNo Bids\n",
+    "8/8\nUnique male crowntail male\n90125\nNone\n---\nNo Bids\n",
+    "8/8\nSalmon crowntail male\n90125\nNone\n---\nNo Bids\n",
+    "8/8\nStunning male crowntail\n90125\nNone\n---\nNo Bids\n",
+    "8/8\nUnique male crowntail male\n90125\nNone\n---\nNo Bids\n",
+    "8/9\n+++Black copper-CT-male++++\nGamebetta\nNone\n---\nNo Bids\n",
+    "8/9\n+++Red pink-CT-Mlae+++\nGamebetta\nNone\n---\nNo Bids\n",
+    "8/9\nF M - B L A C K - O R C H I R D\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/9\nR E D - C H I L I\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/9\nCT235 (Female) - Cleopatra by Thanont\nThanont\nDetautafni\n$15.00\nYes\n",
+    "8/9\nF M - B L A C K L A C E\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/9\nF M - B L A C K - R E D - P A T T E R N\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/9\nFM - B L A C K - O R C H I D#2\nAntongradiyanto\nNone\n---\nNo Bids\n",
+    "8/9\nCT #1080 '' BLACK COPPER '' MALE\nThaphrabettas\nNone\n---\nNo Bids\n",
+    "8/9\nCT #1081 '' BLACK GOLD '' MALE\nThaphrabettas\nNone\n---\nNo Bids\n",
+    "8/9\nCT RED (MALE)\nPusukanya1604\nNone\n---\nNo Bids\n",
+    "8/10\n0004 Rusting of iron crown (Male)\nPorbetta\nNone\n---\nNo Bids\n",
+    "8/11\nhippo- CT KOI MALE !! NICE !!\nHippo1800\nMfinch74\n$71.00\nYes\n",
+    "8/11\nMustard GAS CT Female\nPhusit\nNone\n---\nNo Bids\n",
+    "8/11\nGreen Black CT Female##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "8/11\nBlue CT FEmale##1\nPhusit\nNone\n---\nNo Bids\n",
+    "8/11\n!!! SUPER RED CROWN (2700) !!!\n3636bettaberry\nNone\n---\nNo Bids\n",
+    "8/11\nBlue Marble RED CT Male\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/11\nRED Mixed CT Male\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/11\nBlue CT Male\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/11\nFC Blue Yellow Fins CT Male\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/11\nRED CT Male\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/12\nCT239 (Female) - Pink Panther by Thanont\nThanont\nGuytoptekk\n$15.00\nYes\n",
+    "8/12\n+++Blue orange-CT-Male+++\nGamebetta\nNone\n---\nNo Bids\n",
+    "8/12\nCROWNTAIL BLACK COPPER\nBettaciledug\nNone\n---\nNo Bids\n",
+    "8/12\nFEMALE BLUE CROWNTAIL\nBettaciledug\nNone\n---\nNo Bids\n",
+    "8/12\nCT ORANGE GLASS SO CUTE\nAke_betta\nNone\n---\nNo Bids\n",
+    "8/13\nCT226 (Male) - Dragon Ball by Thanont\nThanont\n3d\n$30.00\nYes\n",
+    "8/13\nCT The Phoenix\nNicebettasthailand\nMoroger\n$30.00\nYes\n",
+    "8/13\nCT. SUPER GOLD\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/13\nCT. SUPER YELLOW\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/13\nCT. SUPER ORANGE\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/13\nCT. ROYAL BLUE\nKwansirifarm01\nNone\n---\nNo Bids\n",
+    "8/13\nhippo- CTPK ORANGE YELLOW KOI !! He 3rd runner-up\nHippo1800\nNone\n---\nNo Bids\n",
+    "8/13\n++++++ Red Dragon CT Male #170611\nLeebunbetta\nWaterlily04\n$20.00\nYes\n",
+    "8/13\nFancy Mustard CT FEmale##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "8/14\nCop RED CT Male\nSenaiaqu\nNone\n---\nNo Bids\n",
+    "8/14\n++++++ Grizzle CT Female #170575\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/14\n++++++ Fancy CT Female #170573\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/14\n++++++ Thai Flag CT Male #170579\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/14\n++++++Spider Man CT Male #170580\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/14\n++++++ Blue White CT Male #170585\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/14\nCT KING ORANGE\nAke_betta\nDanielfortesque\n$32.00\nYes\n",
+    "8/14\nATP Farm - CT FEMALE White Platinum (573)\n88atp_betta\nNone\n---\nNo Bids\n",
+    "8/14\nATP Farm - CT Male White Platinum (574)\n88atp_betta\nNone\n---\nNo Bids\n",
+    "8/14\nFancy Mustard CT FEmale##phusit\nPhusit\nNone\n---\nNo Bids\n",
+    "8/14\n1.Ct Blue Male\nPusukanya1604\nNone\n---\nNo Bids\n",
+    "8/14\n2.Ct Blue&green Male\nPusukanya1604\nNone\n---\nNo Bids\n",
+    "8/14\n2.Ct Red Male\nPusukanya1604\nNone\n---\nNo Bids\n",
+    "8/14\n3.Ct Blue Male\nPusukanya1604\nNone\n---\nNo Bids\n",
+    "8/15\nCT Orange Female #Fancy\nVibetta\nNone\n---\nNo Bids\n",
+    "8/15\nTHE CANDY BLACK FACE / ULTRA RARE!\nTengchoi\nNone\n---\nNo Bids\n",
+    "8/15\nATP Farm - CT FEMALE Black (571)\n88atp_betta\nNone\n---\nNo Bids\n",
+    "8/15\nKOI CT MALE\nTengchoi\nFish_luver\n$60.00\nYes\n",
+    "8/16\nDon't Miss !! ++ White CT Female ++ For Breeder !!\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/16\nDon't Miss !! ++ White Platinum CT Female +\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/16\nhippo- BEAUTIFUL COLOR KOI !! MALE !! Big size !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "8/16\nhippo- CT RED BLACK MARBLE KOI !! MALE !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "8/16\nhippo- FANCY KOI DRAGON !! NEW !!\nHippo1800\nNone\n---\nNo Bids\n",
+    "8/17\nCrown Tail Male Fancy 003\nMrapiwatprangkaew\nNone\n---\nNo Bids\n",
+    "8/17\nCrown Tail Male Fancy Orange 004\nMrapiwatprangkaew\nNone\n---\nNo Bids\n",
+    "8/17\nMascot Crowntail\nVirtus_betta\nNone\n---\nNo Bids\n",
+    "8/17\n0014 Gold iron crown\nPorbetta\nNone\n---\nNo Bids\n",
+    "8/18\n++++++ Pink CT Female #170595\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/18\n++++++ Thai Flag CT Female #170596\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/18\nWHITE CROWNTAIL MALE\nRelafabetta\nNone\n---\nNo Bids\n",
+    "8/18\nCrowntail (2) male\nGriya_betta\nNone\n---\nNo Bids\n",
+    "8/19\nCT238 (Female) - Thai Flag by Thanont\nThanont\nJendelara64\n$15.00\nYes\n",
+    "8/19\nCT240 (Female) - Blaze by Thanont\nThanont\nJendelara64\n$15.00\nYes\n",
+    "8/19\nCT231 (Male) - King of Dark Pink Crown by Thanont\nThanont\nJendelara64\n$20.00\nYes\n",
+    "8/19\nFM - B L A C K - O R C H I D\nAntongradiyanto\nRbehel04\n$20.00\nYes\n",
+    "8/19\nFM - B L A C K - L A C E\nAntongradiyanto\nRbehel04\n$23.00\nYes\n",
+    "8/19\nF M - B L A C K - O R C H I R D #2\nAntongradiyanto\nRbehel04\n$23.00\nYes\n",
+    "8/19\nFM - B L A C K - R E D - P A T T E R N\nAntongradiyanto\nRbehel04\n$25.00\nYes\n",
+    "8/19\n++++++Black Copper CT Female #170589\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/19\n++++++Black Copper CT Female #170590\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/19\n++++++ Black Copper CT Female #170591\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/19\n++++++ Black Copper CT Female #170594\nLeebunbetta\nNone\n---\nNo Bids\n",
+    "8/19\nCT STEEL BLUE ORANGE RYDER\nAke_betta\nLreese\n$25.00\nYes\n",
+    "8/20\nCT Body Black by champfarm\nChampfarm\nAhicpa8543\n$40.00\nYes\n",
+    "8/20\nCT. PEARL ORANGE DRAGON\nKwansirifarm01\nDcancel\n$20.00\nYes\n",
+    "8/20\nDark Blue CT Male\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/20\nNIce !! ++ PURPLE RED CT Male ++\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/20\nSuper SOLID Blue CT Male\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/20\n+++ Mastard Blue CT Male ++\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/20\n++ RED EAGLE CT Male ++\nBettaakapes\nNone\n---\nNo Bids\n",
+    "8/21\nFemale gold.\nKhunton1\nNone\n---\nNo Bids\n",
+    "8/21\nFemale white platinum\nKhunton1\nNone\n---\nNo Bids\n",
+    "8/22\nWhite platinum.\nKhunton1\nRaviteja\n$17.00\nYes\n",
+    "8/24\nCT ORANGE GLASS\nAke_betta\nQuang12\n$30.00\nYes\n"
+]
