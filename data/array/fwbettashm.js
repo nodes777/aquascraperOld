@@ -1,6 +1,5 @@
 [
     "Close\nItem\nSeller\nHigh Bidder\nBid Price\nReserve Met?\n",
-    "7/23\nFullmoon Clear.\nKhunton1\nNone\n---\nNo Bids\n",
     "7/23\nHM PINK LAVENDER\nAke_betta\nDeax_9\n$35.00\nYes\n",
     "7/23\nHM THE WHITE GOLD\nAke_betta\nMustangmist\n$30.00\nYes\n",
     "7/23\nHM SILVER RED ROSETAIL\nAke_betta\nDeax_9\n$35.00\nYes\n",
@@ -1501,10 +1500,13 @@
     "8/22\nDevil.Copper Gold Over #179\nAnupong95\nMoni71\n$35.00\nYes\n",
     "8/22\nRed #181\nAnupong95\nMoni71\n$30.00\nYes\n",
     "8/22\nArmageddon Female #182\nAnupong95\nBenten007\n$30.00\nYes\n",
+    "8/23\nKOI FEMALE HM 02\nPowerful\nNimoryan\n$35.00\nYes\n",
     "8/23\nBlue Marble hm FEmale##phusit\nPhusit\nGuppylover4ever\n$20.00\nYes\n",
     "8/23\n***AMAZING HALF MOON***#4\nBanleangbettas\nLinnskampfisker\n$40.00\nYes\n",
     "8/24\nCambodian Orange Female\nChard56\nButterflybettas\n$14.00\nYes\n",
+    "8/26\nHM FEMALES BLUE GEM FANCY\nAke_betta\nNimoryan\n$25.00\nYes\n",
     "8/26\n+++Blue perple red-HM-Male+++\nGamebetta\nQuang12\n$35.00\nYes\n",
+    "8/26\n+++White blue-HM-Male+++\nGamebetta\nNimoryan\n$35.00\nYes\n",
     "8/26\n+++Blue white and black-HM-Male+++\nGamebetta\nQuang12\n$35.00\nYes\n",
     "8/27\nINTERFISH - HALFMOON FANCY NICE COLOR *01\nPichetinterfish\nGabman\n$23.00\nYes\n"
 ]

@@ -1,8 +1,5 @@
 [
     "Close\nItem\nSeller\nHigh Bidder\nBid Price\nReserve Met?\n",
-    "7/23\nFancy.\nKhunton1\nNone\n---\nNo Bids\n",
-    "7/23\nRed burn.\nKhunton1\nNone\n---\nNo Bids\n",
-    "7/23\nKing red blue.\nKhunton1\nNone\n---\nNo Bids\n",
     "7/24\nGamigaze\nMomobetta\nNone\n---\nNo Bids\n",
     "7/24\nCT Fancy Male #Orange\nVibetta\nNone\n---\nNo Bids\n",
     "7/24\nCT Fancy Male #Blue\nVibetta\nNone\n---\nNo Bids\n",

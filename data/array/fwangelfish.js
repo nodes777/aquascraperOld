@@ -1,6 +1,5 @@
 [
     "Close\nItem\nSeller\nHigh Bidder\nBid Price\nReserve Met?\n",
-    "7/23\n8 PLUS ONE MIXED KOI\n84elmo2001\nLuvhope40\n$16.00\nYes\n",
     "7/23\n8 LG SD Koi Mixed Veils & Stnds WYSIWYG\nPerfectangels\nAngelmania2002\n$49.50\nYes\n",
     "7/23\n6 Koi HD to SD Size Veils\nPerfectangels\n6fx128xe5f\n$71.00\nYes\n",
     "7/23\n6 Quarter HB Blushing & Ghost Mixed V, Stnd & SV\nPerfectangels\nFishfanatic315\n$49.00\nYes\n",

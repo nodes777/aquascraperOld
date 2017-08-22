@@ -1,12 +1,6 @@
-// my module, stored in universe.js
-// patching phantomjs' require()
 var require = patchRequire(require);
 
-// now you're ready to go
-var utils = require('utils');
-
 exports.format = function(tableDataArray){
-	console.log("In format\n ~~~~~~~~~~~~~~~~~~~~~ \n");
    var entries = [];
 
    format(tableDataArray);

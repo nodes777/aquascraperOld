@@ -19,6 +19,11 @@ var casper = require('casper').create({
 var url = "http://www.aquabid.com/cgi-bin/auction/closed.cgi";
 var outputFormat = ".json" // js, txt, html
 var pathToFolder = "./data/";
+var arrPath = "./array/";
+var soldPath = "./sold/";
+var jsonPath = "./json/";
+
+
 
 
 casper.start(url);
@@ -43,10 +48,12 @@ casper.waitForSelector('select[name="category"]').then(function(){
       var formattedJSON = tableToJSON.format(tableData);
       // Sort for only the sold items
       var soldJSON = sold.getSoldItems(formattedJSON);
-      // Write the data
-      fs.write(pathToFolder+fish+".js", JSON.stringify(tableData, null, 4), 'w')
-      fs.write(pathToFolder+fish+"JSON"+outputFormat, JSON.stringify(formattedJSON, null, 4), 'w')
-      fs.write(pathToFolder+fish+"SOLD"+outputFormat, JSON.stringify(soldJSON, null, 4), 'w')
+      // Write the data as array
+      fs.write(pathToFolder+arrPath+fish+".js", JSON.stringify(tableData, null, 4), 'w')
+      // write json of all closed auctions
+      fs.write(pathToFolder+jsonPath+fish+outputFormat, JSON.stringify(formattedJSON, null, 4), 'w')
+      // write json sold items only
+      fs.write(pathToFolder+soldPath+fish+outputFormat, JSON.stringify(soldJSON, null, 4), 'w')
       console.log("Data written: "+fish);
     })
   })

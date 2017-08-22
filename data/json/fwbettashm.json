@@ -1,14 +1,6 @@
 [
     {
         "date": "7/23",
-        "item": "Fullmoon Clear.",
-        "seller": "Khunton1",
-        "highBidder": "None",
-        "bPrice": "---",
-        "reserveMet": "No Bids"
-    },
-    {
-        "date": "7/23",
         "item": "HM PINK LAVENDER",
         "seller": "Ake_betta",
         "highBidder": "Deax_9",
@@ -12009,6 +12001,14 @@
     },
     {
         "date": "8/23",
+        "item": "KOI FEMALE HM 02",
+        "seller": "Powerful",
+        "highBidder": "Nimoryan",
+        "bPrice": "$35.00",
+        "reserveMet": "Yes"
+    },
+    {
+        "date": "8/23",
         "item": "Blue Marble hm FEmale##phusit",
         "seller": "Phusit",
         "highBidder": "Guppylover4ever",
@@ -12033,9 +12033,25 @@
     },
     {
         "date": "8/26",
+        "item": "HM FEMALES BLUE GEM FANCY",
+        "seller": "Ake_betta",
+        "highBidder": "Nimoryan",
+        "bPrice": "$25.00",
+        "reserveMet": "Yes"
+    },
+    {
+        "date": "8/26",
         "item": "+++Blue perple red-HM-Male+++",
         "seller": "Gamebetta",
         "highBidder": "Quang12",
+        "bPrice": "$35.00",
+        "reserveMet": "Yes"
+    },
+    {
+        "date": "8/26",
+        "item": "+++White blue-HM-Male+++",
+        "seller": "Gamebetta",
+        "highBidder": "Nimoryan",
         "bPrice": "$35.00",
         "reserveMet": "Yes"
     },
