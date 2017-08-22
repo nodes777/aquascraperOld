@@ -17,7 +17,7 @@ var casper = require('casper').create({
 
 /* Data */
 var url = "http://www.aquabid.com/cgi-bin/auction/closed.cgi";
-var outputFormat = ".js" // js, txt, html
+var outputFormat = ".json" // js, txt, html, json
 var pathToFolder = "./data/";
 
 
