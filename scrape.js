@@ -3,7 +3,6 @@ var utils = require('utils'); // native module, for debuggin
 var fishArray = JSON.parse( fs.read("./input/fishArray.js") );
 var tableToJSON = require('./utils/tableToJSON');
 var grab = require('./utils/grabTable');
-var page = require('./utils/page');
 
 var casper = require('casper').create({
   //verbose: true,
@@ -17,7 +16,7 @@ var casper = require('casper').create({
 
 /* Data */
 var url = "http://www.aquabid.com/cgi-bin/auction/closed.cgi";
-var outputFormat = ".json" // js, txt, html, json
+var outputFormat = ".json" // js, txt, html
 var pathToFolder = "./data/";
 
 
@@ -29,7 +28,8 @@ casper.waitForSelector('select[name="category"]').then(function(){
     // .then is STEP Async, they're executed one after the other
     casper.then(function(){
      casper.evaluate(function(fish) {
-        page.changeDropDowns(fish);
+         $('select[name="category"]').val(fish).change();
+         $('select[name="DAYS"]').val('30').change();
       },fish) 
     });
     casper.thenClick("input[value='Submit']");
@@ -41,7 +41,7 @@ casper.waitForSelector('select[name="category"]').then(function(){
       // Format the data
       var formattedJSON = tableToJSON.format(tableData);
       // Write the data
-      fs.write(pathToFolder+fish+outputFormat, JSON.stringify(tableData, null, 4), 'w')
+      fs.write(pathToFolder+fish+".js", JSON.stringify(tableData, null, 4), 'w')
       fs.write(pathToFolder+fish+"JSON"+outputFormat, JSON.stringify(formattedJSON, null, 4), 'w')
       console.log("Data written: "+fish);
     })

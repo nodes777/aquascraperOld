@@ -2,14 +2,12 @@ const express = require('express')
 const app = express();
 const fs = require('fs');
 /* require all the json files */
-var requireDir = require('require-dir');
-var dir = requireDir('./data');
-console.log(dir);
-console.log(dir.fwanabantoidJSON2[0]);
+var requireGlob = require('require-glob');
+ 
+var modules = requireGlob.sync('./data/*JSON.json')
 
-const fishJSON =  require("./data/fwanabantoidJSON2.json");  
 const port = 3000
-console.log(fishJSON[0]);
+console.log(modules.fwanabantoidJSON);
 app.get('/', (request, response) => {  
 	
   response.send(fishJSON[0])

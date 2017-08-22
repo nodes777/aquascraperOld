@@ -1,9 +1,5 @@
 [
     "Close\nItem\nSeller\nHigh Bidder\nBid Price\nReserve Met?\n",
-    "7/23\nCT. PINK PASTEL\nKwansirifarm01\nNone\n---\nNo Bids\n",
-    "7/23\nCT. RED 2 RAYS\nKwansirifarm01\nNone\n---\nNo Bids\n",
-    "7/23\n***Fancy***CT-Male***\nChoti_betta\nNone\n---\nNo Bids\n",
-    "7/23\n***Orange***CT-Male***\nChoti_betta\nNone\n---\nNo Bids\n",
     "7/23\nAmazing Male #Marble CT#\nCiledugbettalines\nNone\n---\nNo Bids\n",
     "7/23\nPerfect Female #Sexy Red#\nCiledugbettalines\nNone\n---\nNo Bids\n",
     "7/23\nFancy.\nKhunton1\nNone\n---\nNo Bids\n",
@@ -226,6 +222,9 @@
     "8/20\n++ RED EAGLE CT Male ++\nBettaakapes\nNone\n---\nNo Bids\n",
     "8/21\nFemale gold.\nKhunton1\nNone\n---\nNo Bids\n",
     "8/21\nFemale white platinum\nKhunton1\nNone\n---\nNo Bids\n",
+    "8/21\nFemale black and purple crowntail betta\nJudah22\nZzbetta05\n$15.00\nYes\n",
+    "8/21\n++++FANCY YELLOW-WHITE-BLUE++++MALE#1\nInnovation\nJendelara64\n$15.77\nYes\n",
+    "8/22\nDon't Miss !! ++ White CT Female ++ For Breeder !!\nBettaakapes\nNone\n---\nNo Bids\n",
     "8/22\nWhite platinum.\nKhunton1\nRaviteja\n$17.00\nYes\n",
     "8/24\nCT ORANGE GLASS\nAke_betta\nQuang12\n$30.00\nYes\n"
 ]

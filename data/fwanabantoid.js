@@ -1,10 +1,5 @@
 [
     "Close\nItem\nSeller\nHigh Bidder\nBid Price\nReserve Met?\n",
-    "7/22\n2 nice pair flame gouramis, picture shows sample!\n90125\nNone\n---\nNo Bids\n",
-    "7/22\nBreeding group (5) Albino Paradise\n90125\nLambertplusa\n$25.00\nYes\n",
-    "7/22\n2 breeding pair sunset gouramis\n90125\nNone\n---\nNo Bids\n",
-    "7/22\n2 pair of neon blue dwarf gouramis, acutal batch!!\n90125\nNone\n---\nNo Bids\n",
-    "7/22\nBreeding group (5) Albino Paradise\n90125\nJcp\n$25.00\nYes\n",
     "7/31\nBreeding group (5) Albino Paradise\n90125\nNone\n---\nNo Bids\n",
     "7/31\n2 pair of neon blue dwarf gouramis, acutal batch!!\n90125\nNone\n---\nNo Bids\n",
     "7/31\n2 breeding pair sunset gouramis\n90125\nNone\n---\nNo Bids\n",
