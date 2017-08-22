@@ -1,12 +1,5 @@
 [
     "Close\nItem\nSeller\nHigh Bidder\nBid Price\nReserve Met?\n",
-    "7/23\nAmazing Male #Black Cooper#\nCiledugbettalines\nNone\n---\nNo Bids\n",
-    "7/23\nAmazing Male #Gold Dragon#\nCiledugbettalines\nNone\n---\nNo Bids\n",
-    "7/23\nPerfect Female #Huge Cooper Black Head#\nCiledugbettalines\nMustangmist\n$20.00\nYes\n",
-    "7/23\nPerfect Female #Sexy White#\nCiledugbettalines\nNone\n---\nNo Bids\n",
-    "7/23\nPerfect Female #Sexy Black#\nCiledugbettalines\n804hush\n$20.00\nYes\n",
-    "7/23\nPerfect Female #Sexy Red BSE#\nCiledugbettalines\nNone\n---\nNo Bids\n",
-    "7/23\nPerfect Female #Fancy HM#\nCiledugbettalines\nNone\n---\nNo Bids\n",
     "7/23\nFullmoon Clear.\nKhunton1\nNone\n---\nNo Bids\n",
     "7/23\nHM PINK LAVENDER\nAke_betta\nDeax_9\n$35.00\nYes\n",
     "7/23\nHM THE WHITE GOLD\nAke_betta\nMustangmist\n$30.00\nYes\n",
@@ -1504,9 +1497,14 @@
     "8/22\n+++++HM+++Sakura--Male...Big ears\nOnebetta99\nNone\n---\nNo Bids\n",
     "8/22\n++++HM+++//Fireworks//Male..Big ears\nOnebetta99\nNone\n---\nNo Bids\n",
     "8/22\n###OHM(Female) Lavender Fancy###BY Kingpetall\nKingpetall\nRbehel04\n$30.00\nYes\n",
+    "8/22\nBig Fancy Dragon #176\nAnupong95\nMonsterfish35\n$30.00\nYes\n",
+    "8/22\nDevil.Copper Gold Over #179\nAnupong95\nMoni71\n$35.00\nYes\n",
+    "8/22\nRed #181\nAnupong95\nMoni71\n$30.00\nYes\n",
+    "8/22\nArmageddon Female #182\nAnupong95\nBenten007\n$30.00\nYes\n",
     "8/23\nBlue Marble hm FEmale##phusit\nPhusit\nGuppylover4ever\n$20.00\nYes\n",
     "8/23\n***AMAZING HALF MOON***#4\nBanleangbettas\nLinnskampfisker\n$40.00\nYes\n",
     "8/24\nCambodian Orange Female\nChard56\nButterflybettas\n$14.00\nYes\n",
     "8/26\n+++Blue perple red-HM-Male+++\nGamebetta\nQuang12\n$35.00\nYes\n",
-    "8/26\n+++Blue white and black-HM-Male+++\nGamebetta\nQuang12\n$35.00\nYes\n"
+    "8/26\n+++Blue white and black-HM-Male+++\nGamebetta\nQuang12\n$35.00\nYes\n",
+    "8/27\nINTERFISH - HALFMOON FANCY NICE COLOR *01\nPichetinterfish\nGabman\n$23.00\nYes\n"
 ]

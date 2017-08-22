@@ -1,16 +1,14 @@
-const express = require('express')  
+const express = require('express') 
 const app = express();
 const fs = require('fs');
-/* require all the json files */
-var requireGlob = require('require-glob');
- 
-var modules = requireGlob.sync('./data/*JSON.json')
+const requireGlob = require('require-glob');
+/* require all the SOLD json files */
+const fishType = requireGlob.sync('./data/*SOLD.json')
 
 const port = 3000
-console.log(modules.fwanabantoidJSON);
+
 app.get('/', (request, response) => {  
-	
-  response.send(fishJSON[0])
+  response.send(fishType.fwanabantoidSOLD)
 })
 
 app.listen(port, (err) => {  

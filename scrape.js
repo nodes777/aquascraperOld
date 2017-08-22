@@ -3,6 +3,7 @@ var utils = require('utils'); // native module, for debuggin
 var fishArray = JSON.parse( fs.read("./input/fishArray.js") );
 var tableToJSON = require('./utils/tableToJSON');
 var grab = require('./utils/grabTable');
+var sold = require('./utils/getSoldItems');
 
 var casper = require('casper').create({
   //verbose: true,
@@ -36,13 +37,16 @@ casper.waitForSelector('select[name="category"]').then(function(){
     casper.waitForSelector(".bluebg", function(){
       // Get the data
       var tableData = grab.grabTable(this);
-      //utils.dump(tableData);
-      //console.log(tableData);
+        //utils.dump(tableData);
+        //console.log(tableData);
       // Format the data
       var formattedJSON = tableToJSON.format(tableData);
+      // Sort for only the sold items
+      var soldJSON = sold.getSoldItems(formattedJSON);
       // Write the data
       fs.write(pathToFolder+fish+".js", JSON.stringify(tableData, null, 4), 'w')
       fs.write(pathToFolder+fish+"JSON"+outputFormat, JSON.stringify(formattedJSON, null, 4), 'w')
+      fs.write(pathToFolder+fish+"SOLD"+outputFormat, JSON.stringify(soldJSON, null, 4), 'w')
       console.log("Data written: "+fish);
     })
   })

@@ -16,7 +16,7 @@ exports.format = function(tableDataArray){
 		for(var i = 1; i<tableDataArray.length; i++){
 			//convert \n to v*^%, then split on *^%
 			var tmpArr = tableDataArray[i].replace( /\n/g, "v*^%" ).split( "v*^%" )
-			console.log("tmpArr "+tmpArr);
+			//console.log("tmpArr "+tmpArr);
 			var entry = new AuctionEntry(tmpArr[0], tmpArr[1], tmpArr[2], tmpArr[3], tmpArr[4], tmpArr[5]);
 			entries.push(entry);
 		}
