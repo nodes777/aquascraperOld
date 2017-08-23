@@ -1,6 +1,9 @@
+/* Casperjs Script */
 var fs = require("fs");
 var utils = require('utils'); // native module, for debuggin
 var fishArray = JSON.parse( fs.read("./input/fishArray.js") );
+
+/* Utility Functions */
 var tableToJSON = require('./utils/tableToJSON');
 var grab = require('./utils/grabTable');
 var sold = require('./utils/getSoldItems');
@@ -15,7 +18,7 @@ var casper = require('casper').create({
     },
 });
 
-/* Data */
+/* Consts */
 var url = "http://www.aquabid.com/cgi-bin/auction/closed.cgi";
 var outputFormat = ".json" // js, txt, html
 var pathToFolder = "./data/";
@@ -23,27 +26,27 @@ var arrPath = "./array/";
 var soldPath = "./sold/";
 var jsonPath = "./json/";
 
-
-
-
+/* Start the scraping */
 casper.start(url);
+
 casper.waitForSelector('select[name="category"]').then(function(){
   casper.each(fishArray, function(self, fish){
-
-    //evaluate is not async
+    // evaluate is not async
     // .then is STEP Async, they're executed one after the other
     casper.then(function(){
+      // Change the drop down selections 
      casper.evaluate(function(fish) {
          $('select[name="category"]').val(fish).change();
          $('select[name="DAYS"]').val('30').change();
       },fish) 
     });
+
     casper.thenClick("input[value='Submit']");
     casper.waitForSelector(".bluebg", function(){
       // Get the data
       var tableData = grab.grabTable(this);
-        //utils.dump(tableData);
-        //console.log(tableData);
+          //utils.dump(tableData);
+          //console.log(tableData);
       // Format the data
       var formattedJSON = tableToJSON.format(tableData);
       // Sort for only the sold items
