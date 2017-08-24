@@ -1,7 +1,29 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <!-- References a Handlebars partial in views/partials/head.handlebars -->
+  {{>head}}
+ 
+ <title>Aquascraper</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
+ <!--<script src="../public/clientjs/index.js"></script> -->
+
  <script>
 var fishTypes = {{{json fishTypes}}}
 console.log(fishTypes)
  </script>
+<script src="./clientjs/index.js"></script>
+</head>
+ 
+<body>
+
+{{>bsnavbar}}
+ 
+<!-- The HTML for each view goes here -->
+<div class="container">
+<!-- Triple staches escape?? html -->
+{{{body}}}
 
 <div class="page-header">
 <h1>In Home.handlebars</h1>
@@ -9,4 +31,14 @@ console.log(fishTypes)
 
 fwanabantoid date:{{fishTypes.fwanabantoid.[0].date}}
 </div>
+
+<!-- Double staches don't apply html -->
+
+</div>
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
 

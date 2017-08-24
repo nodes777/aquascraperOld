@@ -10,7 +10,8 @@ const port = 3000
 //const handlebars = require('express-handlebars').create({defaultLayout:'main'});
 
 //app.engine('handlebars', handlebars.engine);
-var exphbs = require('express-handlebars'); 
+const exphbs = require('express-handlebars'); 
+// Set a helper to return the JSON
 app.engine('handlebars', exphbs({	helpers: { json: function (context) { return JSON.stringify(context); } } }));
 app.set('view engine', 'handlebars');
 
