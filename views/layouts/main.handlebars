@@ -5,7 +5,16 @@
   <!-- References a Handlebars partial in views/partials/head.handlebars -->
   {{>head}}
  
-  <title>Express Tutorial</title>
+  <title>Aquascraper</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.js"></script>
+ <!--<script src="../public/clientjs/index.js"></script> -->
+
+ <script>
+
+var fishTypes = {{{json fishTypes}}}
+
+console.log("fishTypes: " + fishTypes.fwanabantoid.[0].date)
+ </script>
 </head>
  
 <body>
@@ -15,9 +24,19 @@
  
 <!-- The HTML for each view goes here -->
 <div class="container">
+<!-- Triple staches apply html -->
 {{{body}}}
+
+{{fishTypes}}
+
+fwanabantoid date:{{fishTypes.fwanabantoid.[0].date}}
+
+<!-- Double staches don't apply html -->
+
 </div>
  
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+<!-- FORMAT: fishTypes.fwanabantoid.[0].date -->

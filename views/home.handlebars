@@ -1,3 +1,12 @@
+ <script>
+var fishTypes = {{{json fishTypes}}}
+console.log(fishTypes)
+ </script>
+
 <div class="page-header">
-<h3>Welcome to my Express Tutorial</h3>
+<h1>In Home.handlebars</h1>
+{{json fishTypes.fwanabantoid}}
+
+fwanabantoid date:{{fishTypes.fwanabantoid.[0].date}}
 </div>
+
