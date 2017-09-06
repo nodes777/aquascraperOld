@@ -1,129 +1,25 @@
 [
     {
-        "date": "7/27",
-        "item": "Double Tail Fire Red Bf Male##phusit",
-        "seller": "Phusit",
-        "highBidder": "Geckoblaze",
+        "date": "9/5",
+        "item": "DT121 (Male) - Blue Butterfly By Thanont",
+        "seller": "Thanont",
+        "highBidder": "Laminai",
+        "bPrice": "$20.00",
+        "reserveMet": "Yes"
+    },
+    {
+        "date": "9/5",
+        "item": "DT125 (Male) - Green Midnight By Thanont",
+        "seller": "Thanont",
+        "highBidder": "Oisivite",
         "bPrice": "$30.00",
         "reserveMet": "Yes"
     },
     {
-        "date": "7/28",
-        "item": "BLACK ORCHID DOUBLETAIL HALFMOON",
-        "seller": "Relafabetta",
-        "highBidder": "Stephaniefff",
-        "bPrice": "$25.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/1",
-        "item": "Talent Betta Present DTPK Orange Mable Male.",
-        "seller": "Ptsbetta",
-        "highBidder": "Dantedragonbane",
-        "bPrice": "$30.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/2",
-        "item": "***Double Tail Halfmoon White Female***",
-        "seller": "Danishabettajakarta",
-        "highBidder": "Thodge1",
-        "bPrice": "$16.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/7",
-        "item": "DT FEMALES BLUE BLACK DRAGON",
-        "seller": "Ake_betta",
-        "highBidder": "Bsylivong",
-        "bPrice": "$23.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/8",
-        "item": "Full moon Double Tail FAncy Female##phusit",
-        "seller": "Phusit",
-        "highBidder": "Thodge1",
-        "bPrice": "$25.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/8",
-        "item": "PKDT Dumbo Ear Female",
-        "seller": "Vibetta",
-        "highBidder": "Bsylivong",
-        "bPrice": "$20.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/9",
-        "item": "DT Vanda Female",
-        "seller": "Atiwatbetta",
-        "highBidder": "Thodge1",
-        "bPrice": "$20.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/9",
-        "item": "-Mustard DT-Male-",
-        "seller": "Showroombetta99",
-        "highBidder": "Texasjulia",
-        "bPrice": "$40.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/13",
-        "item": "++++++ White Marble DTHM Female #170484",
-        "seller": "Leebunbetta",
-        "highBidder": "Rdd",
-        "bPrice": "$20.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/15",
-        "item": "DT130 (Female) - Twitty Girl By Thanont",
+        "date": "9/5",
+        "item": "DT144 (Male) - Friday Night By Thanont",
         "seller": "Thanont",
-        "highBidder": "Butterflybettas",
-        "bPrice": "$30.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/16",
-        "item": "PKDT Dumbo Ear Male",
-        "seller": "Vibetta",
-        "highBidder": "Waterlily04",
-        "bPrice": "$15.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/18",
-        "item": "DT128 (Female) - Blue Dimond Girl By Thanont",
-        "seller": "Thanont",
-        "highBidder": "Bandk111",
-        "bPrice": "$20.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/19",
-        "item": "DT118 (Male) - Glitter By Thanont",
-        "seller": "Thanont",
-        "highBidder": "Jendelara64",
-        "bPrice": "$20.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/19",
-        "item": "DT119 (Female) - Sky Girl By Thanont",
-        "seller": "Thanont",
-        "highBidder": "Jendelara64",
-        "bPrice": "$20.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/21",
-        "item": "DT132 (Female) - Blue Mustard Girl By Thanont",
-        "seller": "Thanont",
-        "highBidder": "Bandk111",
+        "highBidder": "Echowolf",
         "bPrice": "$20.00",
         "reserveMet": "Yes"
     }

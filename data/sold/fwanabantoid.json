@@ -1,50 +1,50 @@
 [
     {
-        "date": "8/5",
-        "item": "FLAMING FIRE GOURAMI PAIR. NEW PICTUTES. FREE SHIP",
-        "seller": "Yusra111",
-        "highBidder": "Jerryl",
-        "bPrice": "$15.75",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/8",
-        "item": "Breeding group (5) Albino Paradise",
-        "seller": "90125",
-        "highBidder": "Yusra111",
-        "bPrice": "$25.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/8",
-        "item": "2 pair of neon blue dwarf gouramis, acutal batch!!",
-        "seller": "90125",
-        "highBidder": "Mikey",
-        "bPrice": "$25.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/10",
-        "item": "Six Adorable Honey Gouramis - Mixed Sex!",
-        "seller": "Ziggys",
-        "highBidder": "Fishlass",
-        "bPrice": "$12.00",
-        "reserveMet": "Yes"
-    },
-    {
-        "date": "8/20",
-        "item": "6 Powder Blue Gourami T. lalius TR 1.25'' FEMALE",
+        "date": "9/3",
+        "item": "6 Dwarf Gourami Trichogaster lalius FEMALE TR",
         "seller": "Wetspot",
-        "highBidder": "Kid437",
+        "highBidder": "Nestshire",
         "bPrice": "$30.00",
         "reserveMet": "Yes"
     },
     {
-        "date": "8/21",
+        "date": "9/3",
         "item": "6 Red Flame Dwarf Gourami T. lalius MALE TR 2''",
         "seller": "Wetspot",
-        "highBidder": "Kid437",
+        "highBidder": "Jendelara64",
         "bPrice": "$36.00",
+        "reserveMet": "Yes"
+    },
+    {
+        "date": "9/4",
+        "item": "6 Dwarf Gourami Trichogaster lalius MALE TR 2''",
+        "seller": "Wetspot",
+        "highBidder": "Nestshire",
+        "bPrice": "$30.00",
+        "reserveMet": "Yes"
+    },
+    {
+        "date": "9/4",
+        "item": "6 Red Flame Dwarf Gourami T. lalius FEMALE TR",
+        "seller": "Wetspot",
+        "highBidder": "Jendelara64",
+        "bPrice": "$36.00",
+        "reserveMet": "Yes"
+    },
+    {
+        "date": "9/4",
+        "item": "6 Sunset Honey Dwarf Gourami T. chuna TR 1.5''",
+        "seller": "Wetspot",
+        "highBidder": "Nestshire",
+        "bPrice": "$24.00",
+        "reserveMet": "Yes"
+    },
+    {
+        "date": "9/4",
+        "item": "4 Pearl Gourami Trichopodus leerii TR 1.75''",
+        "seller": "Wetspot",
+        "highBidder": "Rudday",
+        "bPrice": "$24.00",
         "reserveMet": "Yes"
     }
 ]
