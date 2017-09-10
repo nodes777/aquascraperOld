@@ -8,11 +8,12 @@ var tableToJSON = require('./utils/tableToJSON');
 var grab = require('./utils/grabTable');
 var sold = require('./utils/getSoldItems');
 var jQuery = require("./utils/jquery.min.js");
+var deets = require('./deets');
 
 
 var casper = require('casper').create({
-  //verbose: true,
-  //logLevel: 'debug',
+  verbose: true,
+  logLevel: 'debug',
   clientScripts: ["./utils/jquery.min.js"],
     pageSettings: {
         loadImages:  false,
@@ -28,6 +29,15 @@ var arrPath = "./array/";
 var soldPath = "./sold/";
 var jsonPath = "./json/";
 
+/* For capturing console.logs() within the pages
+      casper.on('remote.message', function(msg) {
+        this.echo('remote message caught: ' + msg);
+      })
+      casper.on( 'page.error', function (msg, trace) {
+        this.echo( 'Error: ' + msg, 'ERROR' );
+      });
+*/
+
 /* Start the scraping */
 casper.start(url);
 
@@ -36,11 +46,11 @@ casper.waitForSelector('select[name="category"]').then(function(){
     // evaluate is not async
     // .then is STEP Async, they're executed one after the other
     casper.then(function(){
-      // Change the drop down selections 
+      // Change the drop down selections
      casper.evaluate(function(fish) {
          $('select[name="category"]').val(fish).change();
          $('select[name="DAYS"]').val('3').change();
-      },fish) 
+      },fish)
     });
 
     casper.thenClick("input[value='Submit']");
@@ -55,22 +65,24 @@ casper.waitForSelector('select[name="category"]').then(function(){
       var soldJSON = sold.getSoldItems(formattedJSON);
 
       console.log("Attempting to send to Firebase...")
+
       casper.then(function(){
         // Open the url for the database
-        casper.thenOpen("https://aquascraper-data.firebaseio.com/test.json",{
-          method: "POST",
+        casper.thenOpen("https://aquascraper-data.firebaseio.com/test/"+fish+".json?auth="+deets.deets+"&debug=true",{
+          method: "post",
           data: JSON.stringify(soldJSON),
           headers: {
-            "Content-Type":"application/json"
-          }
+            auth : "xxxxxx",
+            keepAlive : true
+          },
+          contentType : 'application/json',
+          dataType: 'json',
         },function(response){
           casper.echo("POSTED: "+fish);
-          casper.echo(JSON.stringify(response));
+          //casper.echo(JSON.stringify(response));
         });
       });
-
-
-    })
+    });
     casper.thenOpen(url);
   })
 })
