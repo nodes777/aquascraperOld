@@ -1,22 +1,20 @@
 ## Aquascraper
 
-Aquascraper scrapes the results of the closed auctions from aquabid.com. It then renders the sold results as a webpage.
+Aquascraper scrapes the results of the closed auctions from aquabid.com. It then sends that data to Firebase to be rendered.
 
 ## Installation
 Requires:
 [Phantom.js](http://phantomjs.org/)
 [Casperjs](http://casperjs.org/)
 
+Include Phantom and Casper [in your PATH](https://stackoverflow.com/questions/14894311/installing-casperjs-on-windows-how-to-do-it-correctly)
+
+
 ## Instructions
 ###To Scrape:
 In a terminal run
 `casperjs scrape.js`
 
-That writes js files with an array of all data for all fish categories.
-/data/sold - an array of objects for all sold auction items in that category
-/data/json - an array of objects for all closed auctions in that category
-/dara/arr - an array of strings for all closed auctions in that category
+Data is currently written to Firebase, code to write to disk is commented out.
 
-tableToJSON turns those js arrays into JSON
-
-###To Serve Webpage:
+###To Grab the Data from Firebase
