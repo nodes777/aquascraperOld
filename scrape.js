@@ -30,11 +30,11 @@ var casper = require('casper').create({
 
 /* Consts */
 var url = "http://www.aquabid.com/cgi-bin/auction/closed.cgi";
-var outputFormat = ".json" // js, txt, html
-var pathToFolder = "./data/";
-var arrPath = "./array/";
-var soldPath = "./sold/";
-var jsonPath = "./json/";
+// var outputFormat = ".json" // js, txt, html
+// var pathToFolder = "./data/";
+// var arrPath = "./array/";
+// var soldPath = "./sold/";
+// var jsonPath = "./json/";
 
 /* Array to fill and send to Firebase */
 var allFish = {
