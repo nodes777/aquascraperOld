@@ -10,6 +10,6 @@ exports.grabTable = function(page){
 	    var trTextArray = Array.prototype.map.call(trs, function(t) { return t.innerText; });
 
 	    return trTextArray;
-	})
+	});
 	return allClosedTable;
-}
+};

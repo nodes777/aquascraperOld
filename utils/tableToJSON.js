@@ -5,11 +5,11 @@ exports.format = function(tableDataArray){
 
    format(tableDataArray);
 
-	function format(tableDataArray){ 
+	function format(tableDataArray){
 		    // skip "Close\nItem\nSeller\nHigh Bidder\nBid Price\nReserve Met?\n",
 		for(var i = 1; i<tableDataArray.length; i++){
 			//convert \n to v*^%, then split on *^%
-			var tmpArr = tableDataArray[i].replace( /\n/g, "v*^%" ).split( "v*^%" )
+			var tmpArr = tableDataArray[i].replace( /\n/g, "v*^%" ).split( "v*^%" );
 			//console.log("tmpArr "+tmpArr);
 			var entry = new AuctionEntry(tmpArr[0], tmpArr[1], tmpArr[2], tmpArr[3], tmpArr[4], tmpArr[5]);
 			entries.push(entry);
@@ -22,7 +22,7 @@ exports.format = function(tableDataArray){
 		this.seller = seller;
 		this.highBidder = hBidder;
 		this.bPrice = bPrice;
-		this.reserveMet = reserveMet
+		this.reserveMet = reserveMet;
 	}
 	return entries;
 };

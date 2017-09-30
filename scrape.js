@@ -16,7 +16,7 @@ var casper = require('casper').create({
   clientScripts: ["./utils/jquery.min.js"],
   /* Don't load images to save memory */
     pageSettings: {
-        loadImages:  false,
+        loadImages:  true,
         loadPlugins: false,
     },
     /* Don't load these kinds of files too */
