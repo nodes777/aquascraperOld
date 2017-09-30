@@ -18,3 +18,4 @@ In a terminal run
 Data is currently written to Firebase, code to write to disk is commented out.
 
 ###To Grab the Data from Firebase
+TODO
