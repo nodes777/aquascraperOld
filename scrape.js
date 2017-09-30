@@ -16,6 +16,7 @@ var casper = require('casper').create({
   clientScripts: ["./utils/jquery.min.js"],
   /* Don't load images to save memory */
     pageSettings: {
+      // NO WAIT, DO LOAD IMAGES, for some BS reason, this prevents a worse memory leak
         loadImages:  true,
         loadPlugins: false,
     },
