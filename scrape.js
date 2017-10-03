@@ -9,6 +9,15 @@ var grab = require('./utils/grabTable');
 var sold = require('./utils/getSoldItems');
 var deets = require('./deets');
 
+/* Get a Date to send to the url for better Firebase organization*/
+var time = Date.now();
+var date = new Date(time);
+console.log("\nStarting scrape on: " +date);
+
+var dateArray = date.toString().split(" ");
+var dayScraped = dateArray.slice(0,4);
+var dayScrapedUrl = dayScraped.join("-");
+
 var casper = require('casper').create({
   //verbose: true,
   //logLevel: 'debug',
@@ -57,7 +66,7 @@ casper.start(url);
 
 casper.waitForSelector('select[name="category"]').then(function(){
   casper.each(fishArray, function(self, currentFish){
-    /* 
+    /*
     * .evaluate is not async, so it must be wrapped in a .then
     * .then is STEP Async, they're executed one after the other
     */
@@ -67,7 +76,7 @@ casper.waitForSelector('select[name="category"]').then(function(){
      casper.evaluate(function(currentFish) {
          $('select[name="category"]').val(currentFish).change();
          $('select[name="DAYS"]').val('3').change();
-      },currentFish)
+      },currentFish);
     });
 
     casper.thenClick("input[value='Submit']");
@@ -82,24 +91,24 @@ casper.waitForSelector('select[name="category"]').then(function(){
       var formattedJSON = tableToJSON.format(tableData);
       /* Sort for only the sold items */
       var soldJSON = sold.getSoldItems(formattedJSON);
-      
+
       console.log("Grabbed and sorted: " + currentFish );
 
-      /* 
+      /*
       * Add the currentFish as a property to allFish
       * Its value is the soldJSON
       */
-      allFish.sold[currentFish] = soldJSON; 
+      allFish.sold[currentFish] = soldJSON;
       allFish.allAuctions[currentFish] = formattedJSON;
-    })
-  })
-})
+    });
+  });
+});
 
 /* Make a POST request to Firebase */
 casper.then(function(){
-      console.log("Sending to Firebase...")
+      console.log("Sending to Firebase...");
         // Open the url for the database
-        casper.thenOpen("https://aquascraper-data.firebaseio.com/test.json?auth="+deets.deets+"&debug=true",{
+        casper.thenOpen("https://aquascraper-data.firebaseio.com/test/"+dayScrapedUrl+".json?auth="+deets.deets+"&debug=true",{
           method: "post",
           data: JSON.stringify(allFish),
           headers: {
@@ -120,7 +129,7 @@ casper.run(terminate);
 /* Function Definitions*/
 function terminate (){
   this.echo("Exiting...").exit();
-};
+}
 
 
 /* Writing to file
