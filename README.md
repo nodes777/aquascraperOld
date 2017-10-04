@@ -1,6 +1,6 @@
 # Aquascraper
 
-Aquascraper scrapes the results of the closed auctions from aquabid.com. It then sends that data to Firebase to be rendered.
+Aquascraper scrapes the results of the closed auctions from aquabid.com. It then sends that data to Firebase to be rendered. I wrote about the process of making this [on medium](https://medium.com/@Tnodes/all-i-wanted-to-do-is-scrape-in-javascript-c329c8e757e3)
 
 ## Installation
 Requires:
