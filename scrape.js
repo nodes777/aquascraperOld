@@ -12,12 +12,20 @@ var deets = require('./deets');
 /* Get a Date to send to the url for better Firebase organization*/
 var time = Date.now();
 var date = new Date(time);
-console.log("\nStarting scrape on: " +date);
+console.log("\nStarting scrape on: " + date);
 
 var dateArray = date.toString().split(" ");
-var dayScraped = dateArray.slice(0,4);
+var dayOfWeek = dateArray[0];
+var dayScraped = dateArray.slice(1,4);
+dayScraped.push(dayOfWeek);
 var dayScrapedUrl = dayScraped.join("-");
 
+var firebaseMonth = dayScraped[0];
+firebaseMonth +=dayScraped[2];
+
+var firebaseMonthPath = firebaseMonth;
+
+/* Create casper object*/
 var casper = require('casper').create({
   //verbose: true,
   //logLevel: 'debug',
@@ -38,7 +46,7 @@ var casper = require('casper').create({
   },
 });
 
-/* Consts */
+/* Paths */
 var url = "http://www.aquabid.com/cgi-bin/auction/closed.cgi";
 // var outputFormat = ".json" // js, txt, html
 // var pathToFolder = "./data/";
@@ -65,17 +73,17 @@ var allFish = {
 casper.start(url);
 
 casper.waitForSelector('select[name="category"]').then(function(){
-  casper.each(fishArray, function(self, currentFish){
+  casper.each(fishArray, function(self, currentFish, i){
     /*
     * .evaluate is not async, so it must be wrapped in a .then
     * .then is STEP Async, they're executed one after the other
     */
     casper.then(function(){
-      console.log("Getting: " + currentFish);
+      console.log("\nGetting: " + currentFish);
       // Change the drop down selections
      casper.evaluate(function(currentFish) {
          $('select[name="category"]').val(currentFish).change();
-         $('select[name="DAYS"]').val('3').change();
+         $('select[name="DAYS"]').val('1').change();
       },currentFish);
     });
 
@@ -92,7 +100,7 @@ casper.waitForSelector('select[name="category"]').then(function(){
       /* Sort for only the sold items */
       var soldJSON = sold.getSoldItems(formattedJSON);
 
-      console.log("Grabbed and sorted: " + currentFish );
+      console.log("\nGrabbed and sorted: " + currentFish + ": "+(i+1)+"/"+(fishArray.length+1) );
 
       /*
       * Add the currentFish as a property to allFish
@@ -107,8 +115,8 @@ casper.waitForSelector('select[name="category"]').then(function(){
 /* Make a POST request to Firebase */
 casper.then(function(){
       console.log("Sending to Firebase...");
-        // Open the url for the database
-        casper.thenOpen("https://aquascraper-data.firebaseio.com/test/"+dayScrapedUrl+".json?auth="+deets.deets+"&debug=true",{
+        // Open the url for the database, include a new path for the date
+        casper.thenOpen("https://aquascraper-data.firebaseio.com/"+firebaseMonthPath+"/"+dayScrapedUrl+".json?auth="+deets.deets+"&debug=true",{
           method: "post",
           data: JSON.stringify(allFish),
           headers: {
