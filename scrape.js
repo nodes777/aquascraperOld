@@ -16,7 +16,7 @@ console.log("\nStarting scrape on: " + date);
 
 var dateArray = date.toString().split(" ");
 var dayOfWeek = dateArray[0];
-var dayScraped = dateArray.slice(1,4);
+var dayScraped = dateArray.slice(2,3);
 dayScraped.push(dayOfWeek);
 var dayScrapedUrl = dayScraped.join("-");
 
@@ -79,7 +79,7 @@ casper.waitForSelector('select[name="category"]').then(function(){
     * .then is STEP Async, they're executed one after the other
     */
     casper.then(function(){
-      console.log("\nGetting: " + currentFish);
+      console.log("Getting: " + currentFish);
       // Change the drop down selections
      casper.evaluate(function(currentFish) {
          $('select[name="category"]').val(currentFish).change();
@@ -100,7 +100,7 @@ casper.waitForSelector('select[name="category"]').then(function(){
       /* Sort for only the sold items */
       var soldJSON = sold.getSoldItems(formattedJSON);
 
-      console.log("\nGrabbed and sorted: " + currentFish + ": "+(i+1)+"/"+(fishArray.length+1) );
+      console.log("Finished: " + currentFish + ": "+(i+1)+"/"+(fishArray.length+1) );
 
       /*
       * Add the currentFish as a property to allFish
