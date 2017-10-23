@@ -8,26 +8,12 @@ var fishArray = JSON.parse( fs.read("./input/fishArray.js") );
 var tableToJSON = require('./utils/tableToJSON');
 var grab = require('./utils/grabTable');
 var sold = require('./utils/getSoldItems');
+var getDateInfo = require('./utils/getDateInfo');
 //var deets = require('./deets');
 var deets = system.env.deets;
 
 /* Get a Date to send to the url for better Firebase organization*/
-var time = Date.now();
-var date = new Date(time);
-console.log("\nStarting scrape on: " + date);
 
-var dateArray = date.toString().split(" ");
-var dayOfWeek = dateArray[0];
-var dayScraped = dateArray.slice(2,3);
-dayScraped.push(dayOfWeek);
-var dayScrapedUrl = dayScraped.join("-");
-
-var firebaseMonth = dateArray.slice(1,2);
-firebaseMonth += dateArray.slice(3,4);
-
-var firebaseMonthPath = firebaseMonth.toString();
-
-console.log(firebaseMonthPath);
 
 /* Create casper object*/
 var casper = require('casper').create({
@@ -120,7 +106,7 @@ casper.waitForSelector('select[name="category"]').then(function(){
 casper.then(function(){
       console.log("Sending to Firebase...");
         // Open the url for the database, include a new path for the date
-        casper.thenOpen("https://aquascraper-data.firebaseio.com/"+firebaseMonthPath+"/"+dayScrapedUrl+".json?auth="+deets+"&debug=true",{
+        casper.thenOpen("https://aquascraper-data.firebaseio.com/"+getDateInfo.firebaseMonthPath+"/"+getDateInfo.dayScrapedUrl+".json?auth="+deets+"&debug=true",{
           method: "post",
           data: JSON.stringify(allFish),
           headers: {
