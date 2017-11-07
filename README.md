@@ -27,5 +27,6 @@ $.ajax({
   jsonpCallback: "processJson"
 });
 ```
-`monthAndYea`r must be formatted like "Nov2017" 
-`day` must be formatted like "01-Wed"
+`monthAndYear` must be formatted like "Nov2017"   
+`day` must be formatted like "01-Wed"  
+The earliest available date is Oct2017, 15-Sun.
