@@ -11,11 +11,21 @@ Requires:
 
 
 ## Instructions
-###To Scrape:
+### To Scrape:
 In a terminal run
 `casperjs scrape.js`
 
 Data is currently written to Firebase, code to write to disk is commented out.
 
-###To Grab the Data from Firebase
-TODO
+### To Grab the Data from Firebase
+Make a JSONP request:
+
+```
+$.ajax({
+  url: "https://aquascraper-data.firebaseio.com/"+monthAndYear+"/"+day+".json?callback=processJson&print=pretty",
+  dataType: "jsonp",
+  jsonpCallback: "processJson"
+});
+```
+`monthAndYea`r must be formatted like "Nov2017" 
+`day` must be formatted like "01-Wed"
